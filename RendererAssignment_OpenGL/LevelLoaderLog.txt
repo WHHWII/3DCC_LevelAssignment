@@ -1,0 +1,928 @@
+[Wed Sep 13 23:23:59 2023] ThreadID[22648]	Start Program.
+[Wed Sep 13 23:23:59 2023] ThreadID[22648]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:23:59 2023] ThreadID[22648]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:23:59 2023] ThreadID[22648]	[ERROR]	Game level not found: ../GameLevel.txt
+[Wed Sep 13 23:23:59 2023] ThreadID[22648]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 13 23:25:49 2023] ThreadID[21364]	Start Program.
+[Wed Sep 13 23:25:49 2023] ThreadID[21364]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:25:49 2023] ThreadID[21364]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:25:49 2023] ThreadID[21364]	[ERROR]	Game level not found: ../GameLevel.txt
+[Wed Sep 13 23:25:49 2023] ThreadID[21364]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	Start Program.
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Platform_4x2_Cube.076
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 5.150000 Y 1.748000 Z 5.139900
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Platform_4x4_Cube.099
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -6.003800 Y 2.983700 Z 7.418100
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Support_Short_Plane
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 6.208700 Y 1.353500 Z 5.148900
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 1.450200 Y -0.085100 Z -1.178100
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: TV_2_Cylinder.016
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -6.391200 Y 3.164100 Z 6.963500
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: TV_3_Cylinder.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -5.920900 Y 2.881800 Z 7.049500
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Platform_4x4_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 0.126000 Y 0.034400 Z -0.126700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: TV_3_Cylinder.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 5.837400 Y 1.177700 Z 7.049500
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Platform_4x2_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 0.489300 Y -0.240600 Z 8.842500
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Platform_4x2_Cube.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 0.489300 Y -0.240600 Z 6.706200
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lootbox_Base_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lootbox_Top_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: TV_1_Cylinder.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 0.335600 Y 0.031600 Z -1.174000
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Rail_Corner_2_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 1.810300 Y -0.002000 Z -1.864900
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 1.471400 Y 0.045800 Z -0.546500
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Rail_Corner_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 1.442700 Y -0.048500 Z -0.834200
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: TV_1_Cylinder.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -1.066300 Y -0.026900 Z 7.184900
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Rail_Short_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -0.751900 Y -0.266300 Z 6.788700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Rail_Short_Cube.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -0.751900 Y -0.266300 Z 8.431500
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -0.883100 Y -0.210300 Z 7.533500
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.003
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -0.751200 Y -0.228100 Z 7.997400
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.004
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.468600
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.005
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.073700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lever_Base_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -1.406800 Y 0.037900 Z 0.686200
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lever_Base_Cube.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.079800
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lever_Base_Cube.003
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.476800
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Health_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -4.536300 Y 3.856600 Z 6.165100
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lootbox_Base_Cube.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 4.515600 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lootbox_Top_Cube.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 4.605000 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.006
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.007
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.008
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.533600
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Pickup_Tank_Cylinder.009
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.542900
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -1.359300 Y -1.001400 Z 5.665100
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Rail_Corner_2_Cube.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -4.276400 Y 2.933300 Z 5.769000
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lever_Base_Cube.004
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -6.387900 Y 2.934300 Z 7.475800
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -5.349800 Y 3.590800 Z 6.769700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -6.196300 Y 4.050600 Z 6.497700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Collectible_Board_Cube.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X 0.526600 Y 0.438400 Z 6.479200
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Platform_4x4_Empty_Cube.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -5.977300 Y 2.406600 Z 14.034900
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Support_Long_Plane.001
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -5.990300 Y 2.998900 Z 15.990000
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Support_Long_Plane.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -4.205800 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Support_Long_Plane.003
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -7.754500 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Lootbox_Base_Cube.003
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -6.017000 Y -11.579700 Z 14.104900
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.002
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -4.801200 Y 0.741800 Z 13.039600
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.003
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -4.852500 Y -0.336500 Z 13.033700
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Model Detected: TV_1_Cylinder.003
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	Location: X -7.649400 Y 0.478400 Z 13.553800
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Collectible_Board_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Lever_Base_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Lootbox_Base_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Lootbox_Top_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Pickup_Health_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Pickup_Tank_Cylinder.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Platform_4x2_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Platform_4x4_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Platform_4x4_Empty_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Rail_Corner_2_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Rail_Corner_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Rail_Short_Cube.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Sign_Corner_3_Fenced_Plane.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Sign_Corner_Small1_Plane.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Support_Long_Plane.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Support_Short_Plane.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: TV_1_Cylinder.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: TV_2_Cylinder.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: TV_3_Cylinder.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[INFO]	H2B Imported: Tank_Cylinder.h2b
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 13 23:26:07 2023] ThreadID[4788]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	Start Program.
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Platform_4x2_Cube.076
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 5.150000 Y 1.748000 Z 5.139900
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Platform_4x4_Cube.099
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -6.003800 Y 2.983700 Z 7.418100
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Support_Short_Plane
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 6.208700 Y 1.353500 Z 5.148900
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 1.450200 Y -0.085100 Z -1.178100
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: TV_2_Cylinder.016
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -6.391200 Y 3.164100 Z 6.963500
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: TV_3_Cylinder.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -5.920900 Y 2.881800 Z 7.049500
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Platform_4x4_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 0.126000 Y 0.034400 Z -0.126700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: TV_3_Cylinder.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 5.837400 Y 1.177700 Z 7.049500
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Platform_4x2_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 0.489300 Y -0.240600 Z 8.842500
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Platform_4x2_Cube.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 0.489300 Y -0.240600 Z 6.706200
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lootbox_Base_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lootbox_Top_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: TV_1_Cylinder.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 0.335600 Y 0.031600 Z -1.174000
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Rail_Corner_2_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 1.810300 Y -0.002000 Z -1.864900
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 1.471400 Y 0.045800 Z -0.546500
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Rail_Corner_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 1.442700 Y -0.048500 Z -0.834200
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: TV_1_Cylinder.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -1.066300 Y -0.026900 Z 7.184900
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Rail_Short_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -0.751900 Y -0.266300 Z 6.788700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Rail_Short_Cube.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -0.751900 Y -0.266300 Z 8.431500
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -0.883100 Y -0.210300 Z 7.533500
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.003
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -0.751200 Y -0.228100 Z 7.997400
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.004
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.468600
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.005
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.073700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lever_Base_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -1.406800 Y 0.037900 Z 0.686200
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lever_Base_Cube.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.079800
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lever_Base_Cube.003
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.476800
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Health_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -4.536300 Y 3.856600 Z 6.165100
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lootbox_Base_Cube.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 4.515600 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lootbox_Top_Cube.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 4.605000 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.006
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.007
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.008
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.533600
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Pickup_Tank_Cylinder.009
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.542900
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -1.359300 Y -1.001400 Z 5.665100
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Rail_Corner_2_Cube.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -4.276400 Y 2.933300 Z 5.769000
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lever_Base_Cube.004
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -6.387900 Y 2.934300 Z 7.475800
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -5.349800 Y 3.590800 Z 6.769700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -6.196300 Y 4.050600 Z 6.497700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Collectible_Board_Cube.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X 0.526600 Y 0.438400 Z 6.479200
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Platform_4x4_Empty_Cube.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -5.977300 Y 2.406600 Z 14.034900
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Support_Long_Plane.001
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -5.990300 Y 2.998900 Z 15.990000
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Support_Long_Plane.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -4.205800 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Support_Long_Plane.003
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -7.754500 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Lootbox_Base_Cube.003
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -6.017000 Y -11.579700 Z 14.104900
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.002
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -4.801200 Y 0.741800 Z 13.039600
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.003
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -4.852500 Y -0.336500 Z 13.033700
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Model Detected: TV_1_Cylinder.003
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	Location: X -7.649400 Y 0.478400 Z 13.553800
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Collectible_Board_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Lever_Base_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Lootbox_Base_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Lootbox_Top_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Pickup_Health_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Pickup_Tank_Cylinder.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Platform_4x2_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Platform_4x4_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Platform_4x4_Empty_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Rail_Corner_2_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Rail_Corner_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Rail_Short_Cube.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Sign_Corner_3_Fenced_Plane.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Sign_Corner_Small1_Plane.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Support_Long_Plane.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Support_Short_Plane.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: TV_1_Cylinder.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: TV_2_Cylinder.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: TV_3_Cylinder.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[INFO]	H2B Imported: Tank_Cylinder.h2b
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 13 23:26:54 2023] ThreadID[35972]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	Start Program.
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Platform_4x2_Cube.076
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 5.150000 Y 1.748000 Z 5.139900
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Platform_4x4_Cube.099
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -6.003800 Y 2.983700 Z 7.418100
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Support_Short_Plane
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 6.208700 Y 1.353500 Z 5.148900
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 1.450200 Y -0.085100 Z -1.178100
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: TV_2_Cylinder.016
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -6.391200 Y 3.164100 Z 6.963500
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: TV_3_Cylinder.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -5.920900 Y 2.881800 Z 7.049500
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Platform_4x4_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 0.126000 Y 0.034400 Z -0.126700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: TV_3_Cylinder.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 5.837400 Y 1.177700 Z 7.049500
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Platform_4x2_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 0.489300 Y -0.240600 Z 8.842500
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Platform_4x2_Cube.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 0.489300 Y -0.240600 Z 6.706200
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lootbox_Base_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lootbox_Top_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: TV_1_Cylinder.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 0.335600 Y 0.031600 Z -1.174000
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Rail_Corner_2_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 1.810300 Y -0.002000 Z -1.864900
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 1.471400 Y 0.045800 Z -0.546500
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Rail_Corner_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 1.442700 Y -0.048500 Z -0.834200
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: TV_1_Cylinder.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -1.066300 Y -0.026900 Z 7.184900
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Rail_Short_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -0.751900 Y -0.266300 Z 6.788700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Rail_Short_Cube.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -0.751900 Y -0.266300 Z 8.431500
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -0.883100 Y -0.210300 Z 7.533500
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.003
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -0.751200 Y -0.228100 Z 7.997400
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.004
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.468600
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.005
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.073700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lever_Base_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -1.406800 Y 0.037900 Z 0.686200
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lever_Base_Cube.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.079800
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lever_Base_Cube.003
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.476800
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Health_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -4.536300 Y 3.856600 Z 6.165100
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lootbox_Base_Cube.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 4.515600 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lootbox_Top_Cube.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 4.605000 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.006
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.007
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.008
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.533600
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Pickup_Tank_Cylinder.009
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.542900
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -1.359300 Y -1.001400 Z 5.665100
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Rail_Corner_2_Cube.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -4.276400 Y 2.933300 Z 5.769000
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lever_Base_Cube.004
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -6.387900 Y 2.934300 Z 7.475800
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -5.349800 Y 3.590800 Z 6.769700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -6.196300 Y 4.050600 Z 6.497700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Collectible_Board_Cube.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X 0.526600 Y 0.438400 Z 6.479200
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Platform_4x4_Empty_Cube.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -5.977300 Y 2.406600 Z 14.034900
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Support_Long_Plane.001
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -5.990300 Y 2.998900 Z 15.990000
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Support_Long_Plane.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -4.205800 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Support_Long_Plane.003
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -7.754500 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Lootbox_Base_Cube.003
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -6.017000 Y -11.579700 Z 14.104900
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.002
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -4.801200 Y 0.741800 Z 13.039600
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.003
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -4.852500 Y -0.336500 Z 13.033700
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Model Detected: TV_1_Cylinder.003
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	Location: X -7.649400 Y 0.478400 Z 13.553800
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Collectible_Board_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Lever_Base_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Lootbox_Base_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Lootbox_Top_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Pickup_Health_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Pickup_Tank_Cylinder.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Platform_4x2_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Platform_4x4_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Platform_4x4_Empty_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Rail_Corner_2_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Rail_Corner_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Rail_Short_Cube.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Sign_Corner_3_Fenced_Plane.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Sign_Corner_Small1_Plane.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Support_Long_Plane.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Support_Short_Plane.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: TV_1_Cylinder.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: TV_2_Cylinder.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: TV_3_Cylinder.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[INFO]	H2B Imported: Tank_Cylinder.h2b
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 13 23:41:43 2023] ThreadID[11888]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	Start Program.
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Platform_4x2_Cube.076
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 5.150000 Y 1.748000 Z 5.139900
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Platform_4x4_Cube.099
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -6.003800 Y 2.983700 Z 7.418100
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Support_Short_Plane
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 6.208700 Y 1.353500 Z 5.148900
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 1.450200 Y -0.085100 Z -1.178100
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: TV_2_Cylinder.016
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -6.391200 Y 3.164100 Z 6.963500
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: TV_3_Cylinder.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -5.920900 Y 2.881800 Z 7.049500
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Platform_4x4_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 0.126000 Y 0.034400 Z -0.126700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: TV_3_Cylinder.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 5.837400 Y 1.177700 Z 7.049500
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Platform_4x2_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 0.489300 Y -0.240600 Z 8.842500
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Platform_4x2_Cube.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 0.489300 Y -0.240600 Z 6.706200
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lootbox_Base_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lootbox_Top_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: TV_1_Cylinder.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 0.335600 Y 0.031600 Z -1.174000
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Rail_Corner_2_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 1.810300 Y -0.002000 Z -1.864900
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 1.471400 Y 0.045800 Z -0.546500
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Rail_Corner_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 1.442700 Y -0.048500 Z -0.834200
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: TV_1_Cylinder.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -1.066300 Y -0.026900 Z 7.184900
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Rail_Short_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -0.751900 Y -0.266300 Z 6.788700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Rail_Short_Cube.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -0.751900 Y -0.266300 Z 8.431500
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -0.883100 Y -0.210300 Z 7.533500
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.003
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -0.751200 Y -0.228100 Z 7.997400
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.004
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.468600
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.005
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.073700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lever_Base_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -1.406800 Y 0.037900 Z 0.686200
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lever_Base_Cube.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.079800
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lever_Base_Cube.003
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.476800
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Health_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -4.536300 Y 3.856600 Z 6.165100
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lootbox_Base_Cube.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 4.515600 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lootbox_Top_Cube.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 4.605000 Y 1.776400 Z 6.639100
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.006
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.007
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.766400
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.008
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.533600
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Pickup_Tank_Cylinder.009
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.542900
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -1.359300 Y -1.001400 Z 5.665100
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Rail_Corner_2_Cube.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -4.276400 Y 2.933300 Z 5.769000
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lever_Base_Cube.004
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -6.387900 Y 2.934300 Z 7.475800
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -5.349800 Y 3.590800 Z 6.769700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -6.196300 Y 4.050600 Z 6.497700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Collectible_Board_Cube.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X 0.526600 Y 0.438400 Z 6.479200
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Platform_4x4_Empty_Cube.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -5.977300 Y 2.406600 Z 14.034900
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Support_Long_Plane.001
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -5.990300 Y 2.998900 Z 15.990000
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Support_Long_Plane.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -4.205800 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Support_Long_Plane.003
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -7.754500 Y 2.983900 Z 14.062700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Lootbox_Base_Cube.003
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -6.017000 Y -11.579700 Z 14.104900
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.002
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -4.801200 Y 0.741800 Z 13.039600
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.003
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -4.852500 Y -0.336500 Z 13.033700
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Model Detected: TV_1_Cylinder.003
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	Location: X -7.649400 Y 0.478400 Z 13.553800
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Collectible_Board_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Lever_Base_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Lootbox_Base_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Lootbox_Top_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Pickup_Health_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Pickup_Tank_Cylinder.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Platform_4x2_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Platform_4x4_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Platform_4x4_Empty_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Rail_Corner_2_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Rail_Corner_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Rail_Short_Cube.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Sign_Corner_3_Fenced_Plane.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Sign_Corner_Small1_Plane.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Support_Long_Plane.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Support_Short_Plane.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: TV_1_Cylinder.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: TV_2_Cylinder.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: TV_3_Cylinder.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[INFO]	H2B Imported: Tank_Cylinder.h2b
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 13 23:42:20 2023] ThreadID[21400]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	Start Program.
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 13 23:44:17 2023] ThreadID[35752]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	Start Program.
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 13 23:45:10 2023] ThreadID[19040]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	Start Program.
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[MESSAGE]	Begin Reading Game Level Text File.
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[MESSAGE]	Game Level File Reading Complete.
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[MESSAGE]	Begin Importing .H2B File Data.
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Thu Sep 14 00:01:38 2023] ThreadID[18244]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	Start Program.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[MESSAGE]	Begin Reading Game Level Text File.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Platform_4x2_Cube.076
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 5.150000 Y 1.748000 Z 5.139900
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Platform_4x4_Cube.099
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -6.003800 Y 2.983700 Z 7.418100
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Support_Short_Plane
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 6.208700 Y 1.353500 Z 5.148900
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Tank_Cylinder.006
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 1.450200 Y -0.085100 Z -1.178100
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: TV_2_Cylinder.016
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -6.391200 Y 3.164100 Z 6.963500
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: TV_3_Cylinder.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -5.920900 Y 2.881800 Z 7.049500
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Platform_4x4_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 0.126000 Y 0.034400 Z -0.126700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: TV_3_Cylinder.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 5.837400 Y 1.177700 Z 7.049500
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Platform_4x2_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 0.489300 Y -0.240600 Z 8.842500
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Platform_4x2_Cube.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 0.489300 Y -0.240600 Z 6.706200
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lootbox_Base_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lootbox_Top_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: TV_1_Cylinder.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 0.335600 Y 0.031600 Z -1.174000
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Rail_Corner_2_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 1.810300 Y -0.002000 Z -1.864900
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 1.471400 Y 0.045800 Z -0.546500
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Rail_Corner_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 1.442700 Y -0.048500 Z -0.834200
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: TV_1_Cylinder.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -1.066300 Y -0.026900 Z 7.184900
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Rail_Short_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -0.751900 Y -0.266300 Z 6.788700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Rail_Short_Cube.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -0.751900 Y -0.266300 Z 8.431500
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -0.883100 Y -0.210300 Z 7.533500
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.003
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -0.751200 Y -0.228100 Z 7.997400
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.004
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.468600
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.005
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.073700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lever_Base_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -1.406800 Y 0.037900 Z 0.686200
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lever_Base_Cube.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.079800
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lever_Base_Cube.003
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.476800
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Health_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -4.536300 Y 3.856600 Z 6.165100
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lootbox_Base_Cube.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 4.515600 Y 1.776400 Z 6.639100
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lootbox_Top_Cube.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 4.605000 Y 1.776400 Z 6.639100
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.006
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.766400
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.007
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.766400
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.008
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.533600
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Pickup_Tank_Cylinder.009
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.542900
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -1.359300 Y -1.001400 Z 5.665100
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Rail_Corner_2_Cube.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -4.276400 Y 2.933300 Z 5.769000
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lever_Base_Cube.004
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -6.387900 Y 2.934300 Z 7.475800
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -5.349800 Y 3.590800 Z 6.769700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -6.196300 Y 4.050600 Z 6.497700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Collectible_Board_Cube.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X 0.526600 Y 0.438400 Z 6.479200
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Platform_4x4_Empty_Cube.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -5.977300 Y 2.406600 Z 14.034900
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Support_Long_Plane.001
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -5.990300 Y 2.998900 Z 15.990000
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Support_Long_Plane.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -4.205800 Y 2.983900 Z 14.062700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Support_Long_Plane.003
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -7.754500 Y 2.983900 Z 14.062700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Lootbox_Base_Cube.003
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -6.017000 Y -11.579700 Z 14.104900
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.002
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -4.801200 Y 0.741800 Z 13.039600
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.003
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -4.852500 Y -0.336500 Z 13.033700
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Model Detected: TV_1_Cylinder.003
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	Location: X -7.649400 Y 0.478400 Z 13.553800
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[MESSAGE]	Game Level File Reading Complete.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[MESSAGE]	Begin Importing .H2B File Data.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Collectible_Board_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Lever_Base_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Lootbox_Base_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Lootbox_Top_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Pickup_Health_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Pickup_Tank_Cylinder.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Platform_4x2_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Platform_4x4_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Platform_4x4_Empty_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Rail_Corner_2_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Rail_Corner_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Rail_Short_Cube.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Sign_Corner_3_Fenced_Plane.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Sign_Corner_Small1_Plane.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Support_Long_Plane.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Support_Short_Plane.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/TV_1_Cylinder.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/TV_2_Cylinder.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/TV_3_Cylinder.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[WARNING]	Loading will continue but model(s) are missing.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Thu Sep 14 00:12:25 2023] ThreadID[15056]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	Start Program.
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[MESSAGE]	Begin Reading Game Level Text File.
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Platform_4x2_Cube.076
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 5.150000 Y 1.748000 Z 5.139900
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Platform_4x4_Cube.099
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -6.003800 Y 2.983700 Z 7.418100
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Support_Short_Plane
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 6.208700 Y 1.353500 Z 5.148900
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Tank_Cylinder.006
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 1.450200 Y -0.085100 Z -1.178100
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: TV_2_Cylinder.016
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -6.391200 Y 3.164100 Z 6.963500
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: TV_3_Cylinder.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -5.920900 Y 2.881800 Z 7.049500
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Platform_4x4_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 0.126000 Y 0.034400 Z -0.126700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: TV_3_Cylinder.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 5.837400 Y 1.177700 Z 7.049500
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Platform_4x2_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 0.489300 Y -0.240600 Z 8.842500
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Platform_4x2_Cube.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 0.489300 Y -0.240600 Z 6.706200
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lootbox_Base_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lootbox_Top_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: TV_1_Cylinder.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 0.335600 Y 0.031600 Z -1.174000
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Rail_Corner_2_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 1.810300 Y -0.002000 Z -1.864900
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 1.471400 Y 0.045800 Z -0.546500
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Rail_Corner_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 1.442700 Y -0.048500 Z -0.834200
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: TV_1_Cylinder.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -1.066300 Y -0.026900 Z 7.184900
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Rail_Short_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -0.751900 Y -0.266300 Z 6.788700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Rail_Short_Cube.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -0.751900 Y -0.266300 Z 8.431500
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -0.883100 Y -0.210300 Z 7.533500
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.003
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -0.751200 Y -0.228100 Z 7.997400
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.004
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.468600
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.005
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.073700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lever_Base_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -1.406800 Y 0.037900 Z 0.686200
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lever_Base_Cube.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.079800
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lever_Base_Cube.003
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.476800
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Health_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -4.536300 Y 3.856600 Z 6.165100
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lootbox_Base_Cube.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 4.515600 Y 1.776400 Z 6.639100
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lootbox_Top_Cube.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 4.605000 Y 1.776400 Z 6.639100
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.006
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.766400
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.007
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.766400
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.008
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.533600
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Pickup_Tank_Cylinder.009
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.542900
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -1.359300 Y -1.001400 Z 5.665100
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Rail_Corner_2_Cube.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -4.276400 Y 2.933300 Z 5.769000
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lever_Base_Cube.004
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -6.387900 Y 2.934300 Z 7.475800
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -5.349800 Y 3.590800 Z 6.769700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -6.196300 Y 4.050600 Z 6.497700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Collectible_Board_Cube.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X 0.526600 Y 0.438400 Z 6.479200
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Platform_4x4_Empty_Cube.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -5.977300 Y 2.406600 Z 14.034900
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Support_Long_Plane.001
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -5.990300 Y 2.998900 Z 15.990000
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Support_Long_Plane.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -4.205800 Y 2.983900 Z 14.062700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Support_Long_Plane.003
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -7.754500 Y 2.983900 Z 14.062700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Lootbox_Base_Cube.003
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -6.017000 Y -11.579700 Z 14.104900
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.002
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -4.801200 Y 0.741800 Z 13.039600
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.003
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -4.852500 Y -0.336500 Z 13.033700
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Model Detected: TV_1_Cylinder.003
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	Location: X -7.649400 Y 0.478400 Z 13.553800
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[MESSAGE]	Game Level File Reading Complete.
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[MESSAGE]	Begin Importing .H2B File Data.
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Collectible_Board_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Lever_Base_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Lootbox_Base_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Lootbox_Top_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Pickup_Health_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Pickup_Tank_Cylinder.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Platform_4x2_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Platform_4x4_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Platform_4x4_Empty_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Rail_Corner_2_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Rail_Corner_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Rail_Short_Cube.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Sign_Corner_3_Fenced_Plane.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Sign_Corner_Small1_Plane.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Support_Long_Plane.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Support_Short_Plane.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: TV_1_Cylinder.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: TV_2_Cylinder.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: TV_3_Cylinder.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[INFO]	H2B Imported: Tank_Cylinder.h2b
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Thu Sep 14 00:13:57 2023] ThreadID[13044]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	Start Program.
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[MESSAGE]	Begin Reading Game Level Text File.
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Collectible_Gear_Gear
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 5.271600 Y 2.691400 Z 5.183700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Platform_4x2_Cube.076
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 5.150000 Y 1.748000 Z 5.139900
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Platform_4x4_Cube.099
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -6.003800 Y 2.983700 Z 7.418100
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Support_Short_Plane
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 6.208700 Y 1.353500 Z 5.148900
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Tank_Cylinder.006
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 1.450200 Y -0.085100 Z -1.178100
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: TV_2_Cylinder.016
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -6.391200 Y 3.164100 Z 6.963500
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: TV_3_Cylinder.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -5.920900 Y 2.881800 Z 7.049500
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Platform_4x4_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 0.126000 Y 0.034400 Z -0.126700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: TV_3_Cylinder.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 5.837400 Y 1.177700 Z 7.049500
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Platform_4x2_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 0.489300 Y -0.240600 Z 8.842500
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Platform_4x2_Cube.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 0.489300 Y -0.240600 Z 6.706200
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lootbox_Base_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lootbox_Top_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 1.453900 Y -0.095800 Z -1.152800
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: TV_1_Cylinder.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 0.335600 Y 0.031600 Z -1.174000
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Rail_Corner_2_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 1.810300 Y -0.002000 Z -1.864900
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 1.471400 Y 0.045800 Z -0.546500
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Rail_Corner_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 1.442700 Y -0.048500 Z -0.834200
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: TV_1_Cylinder.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -1.066300 Y -0.026900 Z 7.184900
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Rail_Short_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -0.751900 Y -0.266300 Z 6.788700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Rail_Short_Cube.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -0.751900 Y -0.266300 Z 8.431500
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -0.883100 Y -0.210300 Z 7.533500
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.003
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -0.751200 Y -0.228100 Z 7.997400
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.004
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.468600
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.005
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -0.682900 Y -0.150300 Z 7.073700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lever_Base_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -1.406800 Y 0.037900 Z 0.686200
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lever_Base_Cube.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.079800
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lever_Base_Cube.003
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -1.412800 Y 0.042400 Z 1.476800
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Health_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -4.536300 Y 3.856600 Z 6.165100
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lootbox_Base_Cube.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 4.515600 Y 1.776400 Z 6.639100
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lootbox_Top_Cube.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 4.605000 Y 1.776400 Z 6.639100
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.006
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.766400
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.007
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.766400
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.008
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 4.665300 Y 1.804400 Z 6.533600
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Pickup_Tank_Cylinder.009
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 4.430000 Y 1.804400 Z 6.542900
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -1.359300 Y -1.001400 Z 5.665100
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Rail_Corner_2_Cube.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -4.276400 Y 2.933300 Z 5.769000
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lever_Base_Cube.004
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -6.387900 Y 2.934300 Z 7.475800
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -5.349800 Y 3.590800 Z 6.769700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Sign_Corner_Small1_Plane.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -6.196300 Y 4.050600 Z 6.497700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Collectible_Board_Cube.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X 0.526600 Y 0.438400 Z 6.479200
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Platform_4x4_Empty_Cube.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -5.977300 Y 2.406600 Z 14.034900
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Support_Long_Plane.001
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -5.990300 Y 2.998900 Z 15.990000
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Support_Long_Plane.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -4.205800 Y 2.983900 Z 14.062700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Support_Long_Plane.003
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -7.754500 Y 2.983900 Z 14.062700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Lootbox_Base_Cube.003
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -6.017000 Y -11.579700 Z 14.104900
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.002
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -4.801200 Y 0.741800 Z 13.039600
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: Sign_Corner_3_Fenced_Plane.003
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -4.852500 Y -0.336500 Z 13.033700
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Model Detected: TV_1_Cylinder.003
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	Location: X -7.649400 Y 0.478400 Z 13.553800
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[MESSAGE]	Game Level File Reading Complete.
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[MESSAGE]	Begin Importing .H2B File Data.
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Collectible_Board_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Collectible_Gear_Gear.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Lever_Base_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Lootbox_Base_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Lootbox_Top_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Pickup_Health_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Pickup_Tank_Cylinder.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Platform_4x2_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Platform_4x4_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Platform_4x4_Empty_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Rail_Corner_2_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Rail_Corner_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Rail_Short_Cube.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Sign_Corner_3_Fenced_Plane.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Sign_Corner_Small1_Plane.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Support_Long_Plane.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Support_Short_Plane.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: TV_1_Cylinder.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: TV_2_Cylinder.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: TV_3_Cylinder.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[INFO]	H2B Imported: Tank_Cylinder.h2b
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Thu Sep 14 00:14:23 2023] ThreadID[15648]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
