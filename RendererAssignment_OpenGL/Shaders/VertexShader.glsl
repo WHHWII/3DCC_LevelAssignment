@@ -41,8 +41,8 @@ void main()
 	// TODO: Part 1f
 	// TODO: Part 1h
 	// TODO: Part 2h
-	gl_Position = vec4(local_pos, 1) * worldMatrix * viewMatrix * projectionMatrix;
+	surfacePos = (vec4(local_pos, 1) * worldMatrix).xyz;
+	gl_Position = vec4(surfacePos, 1) * viewMatrix * projectionMatrix;
 	// TODO: Part 4b
-	worldNorm = vec3(vec4(local_nrm, 1) * worldMatrix);
-	surfacePos = local_pos;
+	worldNorm = normalize(vec3(vec4(local_nrm, 0) * worldMatrix));
 }

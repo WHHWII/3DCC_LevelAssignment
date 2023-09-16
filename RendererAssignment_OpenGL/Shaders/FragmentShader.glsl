@@ -34,14 +34,14 @@ void main()
 	// TODO: Part 3a
 
 	// TODO: Part 4c
-	float lighRatio = clamp(dot(worldNorm, vec3(sunDirection)), 0, 1);
+	float lighRatio = clamp(dot(worldNorm,-(sunDirection.xyz)), 0, 1);
 	vec4 newColor = sunColor * lighRatio * vec4(material.Kd,1);
 	
-	vec4 viewdir = normalize(camPos - vec4(surfacePos,1));
-	vec4 halfvec = normalize(-sunDirection + viewdir);
-	float intensity = max(pow(clamp(dot(vec4(worldNorm, 1), halfvec), 1, 0), material.Ns), 0 );
+	vec3 viewdir = normalize(camPos.xyz - surfacePos);
+	vec3 halfvec = normalize(-(sunDirection.xyz) + viewdir);
+	float intensity = max(clamp(pow(dot(worldNorm, halfvec),material.Ns), 0, 1), 0 );
 	vec4 reflectedlight = sunColor * vec4(material.Ks,1) * intensity;
-	newColor = clamp(newColor + sunAmbient + reflectedlight, 0, 1);
+	newColor = clamp(newColor + sunAmbient, 0, 1) * vec4(material.Kd,1)  + reflectedlight;
 	Pixel = newColor;
 	// TODO: Part 4e
 	// TODO: Part 4f (half-vector or reflect method)
