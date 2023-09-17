@@ -34,6 +34,7 @@ PFNGLGETUNIFORMBLOCKINDEXPROC				glGetUniformBlockIndex = nullptr;
 PFNGLBINDBUFFERBASEPROC						glBindBufferBase = nullptr;
 PFNGLUNIFORMBLOCKBINDINGPROC				glUniformBlockBinding = nullptr;
 PFNGLBUFFERSUBDATAPROC						glBufferSubData = nullptr;
+PFNGLDRAWELEMENTSINSTANCEDBASEVERTEXPROC	glDrawElementsInstancedBaseVertex = nullptr;
 
 void QueryOGLExtensionFunctions(GW::GRAPHICS::GOpenGLSurface ogl)
 {
@@ -69,6 +70,7 @@ void QueryOGLExtensionFunctions(GW::GRAPHICS::GOpenGLSurface ogl)
 	ogl.QueryExtensionFunction(nullptr, "glBindBufferBase", (void**)&glBindBufferBase);
 	ogl.QueryExtensionFunction(nullptr, "glUniformBlockBinding", (void**)&glUniformBlockBinding);
 	ogl.QueryExtensionFunction(nullptr, "glBufferSubData", (void**)&glBufferSubData);
+	ogl.QueryExtensionFunction(nullptr, "glDrawElementsInstancedBaseVertex", (void**)&glDrawElementsInstancedBaseVertex);
 }
 
 #endif

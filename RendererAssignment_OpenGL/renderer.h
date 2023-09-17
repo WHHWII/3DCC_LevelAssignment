@@ -37,7 +37,7 @@ class Renderer
 	// proxy handles
 	GW::SYSTEM::GWindow win;
 	GW::GRAPHICS::GOpenGLSurface ogl;
-	Level_Data levelData;
+	Level_Data &levelData;
 
 	// what we need at a minimum to draw a triangle
 	GLuint vertexArray = 0;
@@ -93,21 +93,22 @@ class Renderer
 public:
 
 
-	Renderer(GW::SYSTEM::GWindow _win, GW::GRAPHICS::GOpenGLSurface _ogl, Level_Data _levelData)
+	Renderer(GW::SYSTEM::GWindow _win, GW::GRAPHICS::GOpenGLSurface _ogl, Level_Data &_levelData  ) : levelData(_levelData)
+
 	{
 		win = _win;
 		ogl = _ogl;
-		levelData = _levelData;
+		//levelData = _levelData;
 		// TODO: part 2a
 		matrixLib.Create();
 		vectorLib.Create();
 
 		InitializeLight();
-		InitializeWorldMatrix(worldMatrix, 0, 0.5, 0.2, 0, 0, 0);
+		InitializeWorldMatrix(worldMatrix, 0, 0, 0, 0, 0, 0);
 		InitializeViewMatrix();
 		InitializeProjectionMatrix();
 		// TODO: Part 2b
-		LoadUbo();
+		InitializeUbo();
 		// TODO: Part 4e
 		InitializeGraphics();
 	}
@@ -139,12 +140,12 @@ private:
 	void IntializeBuffers()
 	{
 		// TODO: Part 1c
-		CreateVertexBuffer(&levelData.levelVertices[0], sizeof(levelData.levelVertices));
-		CreateIndexBuffer(&levelData.levelIndices[0], sizeof(levelData.levelIndices));
+		CreateVertexBuffer(&levelData.levelVertices[0], levelData.levelVertices.size() * sizeof(H2B::VERTEX));
+		CreateIndexBuffer(&levelData.levelIndices[0], levelData.levelIndices.size() * sizeof(unsigned));
 		CreateUboBuffer(&ubo, sizeof(ubo));
 	}
 
-	void LoadUbo() {
+	void InitializeUbo() {
 		ubo.material = levelData.levelMaterials[0].attrib;
 		ubo.world = worldMatrix;
 		ubo.projectionMatrix = projectionMatrix;
@@ -152,7 +153,7 @@ private:
 		ubo.sunDirection = lightDirection;
 		ubo.sunColor = lightColor;
 		ubo.sunAmbient = ambientColor;
-		ubo.camPos = viewMatrix.row4;
+		ubo.camPos = GW::MATH::GVECTORF{ 0.75f, 0.25f, 1.5f }; // will need to change for moving camera
 	}
 
 	void PrintMatrix(GW::MATH::GMATRIXF mat) {
@@ -190,28 +191,20 @@ private:
 	}
 
 	void InitializeViewMatrix() {
-		GW::MATH::GVECTORF viewVector = GW::MATH::GIdentityVectorF;
-		matrixLib.TranslateGlobalF(viewMatrix, viewVector, viewMatrix); // align with grid
-
-		
-		viewVector.x = 0.35;
-		viewVector.y = .8;
-		viewVector.z = -.5;
-		matrixLib.TranslateLocalF(viewMatrix, viewVector, viewMatrix);
-
-		matrixLib.RotateXGlobalF(viewMatrix, -15 * dToR, viewMatrix);
-		matrixLib.RotateYGlobalF(viewMatrix, -15 * dToR, viewMatrix);
-		matrixLib.RotateZGlobalF(viewMatrix, 0 * dToR, viewMatrix);
+		matrixLib.LookAtRHF(GW::MATH::GVECTORF{ 0.75f, 0.25f, 1.5f },
+			GW::MATH::GVECTORF{ 0.06f, -0.08f, -0.1f },
+			GW::MATH::GVECTORF{ 0.0f, 1.0f, 0.0f },
+			viewMatrix);
 
 		//need to fix translation
 
-		matrixLib.InverseF(viewMatrix, viewMatrix);
+		//matrixLib.InverseF(viewMatrix, viewMatrix);
 	}
 
 	void InitializeProjectionMatrix() {
 		float aspectRatio;
 		ogl.GetAspectRatio(aspectRatio);
-		matrixLib.ProjectionOpenGLLHF(fov * dToR, aspectRatio, 0.1, 100, projectionMatrix);
+		matrixLib.ProjectionOpenGLRHF(fov * dToR, aspectRatio, 0.1, 100, projectionMatrix);
 	}
 
 	void CreateVertexBuffer(const void* data, unsigned int sizeInBytes)
@@ -316,28 +309,36 @@ public:
 		SetUpPipeline();
 		SetupUbo();
 
-		// TODO: Part 1d
-		// TODO: Part 2a
-
-
-		// TODO: Part 3b
-	
-		// TODO: Part 3c
-		// TODO: Part 4d
-		// TODO: Part 4e
+		//glDrawElements(GL_TRIANGLES, levelData.levelModels[1].indexCount, GL_UNSIGNED_INT, 0);
+		//TODO: need to loop through instances, and then draw the mesh(es) at each transform containted within the instance.
+		//later instanced rendering will do this.
 		
-		for (int i = 0; i < levelData.levelMeshes.size(); i++)
+		for (int i = 0; i < levelData.levelInstances.size(); i++) // loop through all instances (unique models)
 		{
-			auto mesh = levelData.levelMeshes[i];
-			auto indicies = reinterpret_cast <GLvoid*> (mesh.drawInfo.indexOffset * sizeof(unsigned int));
 
-			ubo.material = levelData.levelMaterials[i].attrib;
-			glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
+			auto instance = levelData.levelInstances[i]; // each unique model is stored in an instance, which is used to draw the same model in different locs/orientations
+			auto model = levelData.levelModels[instance.modelIndex]; // the model of the instance
+			
+			H2B::MESH curMesh; //current submesh of the model
+			for (int t = 0; t < instance.transformCount; t++) {  // each unique location/orientation where this model is drawn
+				for (int subMeshIdx = 0; subMeshIdx < model.meshCount; subMeshIdx++) { // each sub mesh of the model
+					curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
 
+					
+					ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
+					ubo.world = levelData.levelTransforms[instance.transformStart + t];
+					glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
 
-			glDrawElements(GL_TRIANGLES, mesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies); //TODO: Part 1h
+					//printf("model %s \t\t: indexStart %d mesh: %d indexOffset: %d \n", model.filename, model.indexStart, subMeshIdx,curMesh.drawInfo.indexOffset);
+
+				}
+			}
+			auto indicies = reinterpret_cast <GLvoid*> (model.indexStart * sizeof(unsigned int));
+			glDrawElements(GL_TRIANGLES, model.indexCount, GL_UNSIGNED_INT, indicies);
 		}
+	
 		
+		//glDrawElementsInstancedBaseVertex(GL_TRIANGLES, levelData.levelInstances.size(), GL_UNSIGNED_INT, (GLvoid*)0, levelData.levelIndices.size(), 0);
 
 		glBindVertexArray(0); // some video cards(cough Intel) need this set back to zero or they won't display
 	}
