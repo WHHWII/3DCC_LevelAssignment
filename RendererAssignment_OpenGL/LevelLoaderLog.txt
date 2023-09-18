@@ -7922,3 +7922,24 @@
 [Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	H2B Imported: Suzanne.h2b
 [Mon Sep 18 12:48:00 2023] ThreadID[15868]	[MESSAGE]	Importing of .H2B File Data Complete.
 [Mon Sep 18 12:48:00 2023] ThreadID[15868]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	Start Program.
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Model Detected: Cube
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Model Detected: Cube.001
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Location: X 1.356300 Y 1.659000 Z 4.682100
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Model Detected: Cube.002
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Location: X -3.240900 Y 4.009500 Z -1.394600
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Model Detected: Cube.003
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Location: X -1.197200 Y 3.749700 Z 2.271100
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Model Detected: Suzanne.001
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	Location: X -0.954400 Y 2.160400 Z -3.079100
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	H2B Imported: Cube.h2b
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 16:18:42 2023] ThreadID[23092]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]

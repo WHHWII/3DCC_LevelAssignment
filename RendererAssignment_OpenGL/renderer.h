@@ -339,7 +339,7 @@ public:
 					glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
 					
 					auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset)  * sizeof(unsigned int));
-					glDrawElements(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies);
+					glDrawElementsInstancedBaseVertex(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies, 1, model.vertexStart);
 					//printf("model %s \t\t: indexStart %d mesh: %d indexOffset: %d \n", model.filename, model.indexStart, subMeshIdx,curMesh.drawInfo.indexOffset);
 
 				}
