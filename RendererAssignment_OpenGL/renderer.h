@@ -1,5 +1,4 @@
 // TODO: Part 1b
-//#include "load_data_oriented.h"
 void PrintLabeledDebugString(const char* label, const char* toPrint)
 {
 	std::cout << label << toPrint << std::endl;
@@ -34,8 +33,10 @@ MessageCallback(GLenum source, GLenum type, GLuint id,
 // Creation, Rendering & Cleanup
 class Renderer
 {
+public:
 	// proxy handles
 	GW::SYSTEM::GWindow win;
+private:
 	GW::GRAPHICS::GOpenGLSurface ogl;
 	Level_Data &levelData;
 
@@ -60,18 +61,24 @@ class Renderer
 	int worldMatrixUniLocation = 0;
 	int viewMatrixUniLocation = 0;
 	int projectionMatrixUniLocation = 0;
-	/// <summary>
-	/// degreeToRadian
-	/// </summary>
-	const float dToR = 0.0174533f;
-	const float fov = 65.0f;// need to make this not stored in two seperate places. probably need camera class.
+	
+	//camera
+	GW::INPUT::GInput inputLib;
+	GW::INPUT::GController controllerLib;
+	unsigned int windowHeight = 0;
+	unsigned int windowWidth = 0;
+	const float moveSpeed = 1.2f;
+	const float sensitivity = 0.1f;
+	float fov = 65.0f;
+	GW::MATH::GMATRIXF camTransform = GW::MATH::GIdentityMatrixF; // used for keeping track of cameras position indipendently of view Matrix
+
 
 	//light
 	GW::MATH::GVECTORF lightDirection = GW::MATH::GIdentityVectorF;
 	GW::MATH::GVECTORF lightColor = GW::MATH::GIdentityVectorF;
 	GW::MATH::GVECTORF ambientColor = GW::MATH::GIdentityVectorF;
 	//frame time
-	float deltaTime = 0.0f;
+	
 	std::chrono::steady_clock::time_point lastFrameTime;
 
 	// TODO: Part 2b
@@ -88,23 +95,28 @@ class Renderer
 
 	UBO_DATA ubo;
 
-	// TODO: Part 4e
-
+	const float dtor = 0.0174533f;
 public:
 
 
-	Renderer(GW::SYSTEM::GWindow _win, GW::GRAPHICS::GOpenGLSurface _ogl, Level_Data &_levelData  ) : levelData(_levelData)
-
+	Renderer(GW::SYSTEM::GWindow _win, GW::GRAPHICS::GOpenGLSurface _ogl, Level_Data &_levelData) : levelData(_levelData)
 	{
 		win = _win;
 		ogl = _ogl;
+
 		//levelData = _levelData;
 		// TODO: part 2a
 		matrixLib.Create();
 		vectorLib.Create();
+		auto inputsuc = inputLib.Create(win);
+		printf("%d \n", inputsuc);
+		inputsuc = controllerLib.Create();
+		printf("%d \n", inputsuc);
+		win.GetHeight(windowHeight);
+		win.GetWidth(windowWidth);
 
 		InitializeLight();
-		InitializeWorldMatrix(worldMatrix, 0, 0, 0, 0, 0, 0);
+		SetMatrixPosRot(worldMatrix, 0, 0, 0, 0, 0, 0);
 		InitializeViewMatrix();
 		InitializeProjectionMatrix();
 		// TODO: Part 2b
@@ -121,8 +133,6 @@ private:
 		BindDebugCallback(); // In debug mode we link openGL errors to the console
 #endif
 		IntializeBuffers();
-		// TODO: Part 1g
-		// TODO: Part 2c
 		CompileVertexShader();
 		CompileFragmentShader();
 		CreateExecutableShaderProgram();
@@ -153,7 +163,7 @@ private:
 		ubo.sunDirection = lightDirection;
 		ubo.sunColor = lightColor;
 		ubo.sunAmbient = ambientColor;
-		ubo.camPos = GW::MATH::GVECTORF{ 0.75f, 0.25f, 1.5f }; // will need to change for moving camera
+		ubo.camPos = camTransform.row4; // will need to change for moving camera
 	}
 
 	void PrintMatrix(GW::MATH::GMATRIXF mat) {
@@ -163,14 +173,14 @@ private:
 		printf("%f, %f, %f, %f\n", mat.row4.x, mat.row4.y, mat.row4.z, mat.row4.w);
 	}
 
-	void InitializeWorldMatrix(GW::MATH::GMATRIXF& matrix, float xt, float yt, float zt, float xr, float yr, float zr) {
+	void SetMatrixPosRot(GW::MATH::GMATRIXF& matrix, float xt, float yt, float zt, float xr, float yr, float zr) {
 		GW::MATH::GVECTORF moveVector = GW::MATH::GIdentityVectorF;
 		moveVector.x = xt;
 		moveVector.y = yt;
 		moveVector.z = zt;
-		if (xr != 0) matrixLib.RotateXGlobalF(matrix, xr * dToR, matrix);
-		if (yr != 0) matrixLib.RotateYGlobalF(matrix, yr * dToR, matrix);
-		if (zr != 0) matrixLib.RotateZGlobalF(matrix, zr * dToR, matrix);
+		if (xr != 0) matrixLib.RotateXGlobalF(matrix,  xr * dtor, matrix);
+		if (yr != 0) matrixLib.RotateYGlobalF(matrix,  yr * dtor, matrix);
+		if (zr != 0) matrixLib.RotateZGlobalF(matrix,  zr * dtor, matrix);
 		//printf("%f,%f,%f,%f\n", worldVector.x, worldVector.y, worldVector.z, worldVector.w);
 		matrixLib.TranslateGlobalF(matrix, moveVector, matrix);
 	}
@@ -191,20 +201,18 @@ private:
 	}
 
 	void InitializeViewMatrix() {
-		matrixLib.LookAtRHF(GW::MATH::GVECTORF{ 0.75f, 0.25f, 1.5f },
-			GW::MATH::GVECTORF{ 0.06f, -0.08f, -0.1f },
+		matrixLib.LookAtRHF(GW::MATH::GVECTORF{ 0.75f, 10.0f, -5.0f },
+			GW::MATH::GVECTORF{ 0.15f, 0.75f, 0.0f },
 			GW::MATH::GVECTORF{ 0.0f, 1.0f, 0.0f },
 			viewMatrix);
-
-		//need to fix translation
-
-		//matrixLib.InverseF(viewMatrix, viewMatrix);
+		//lookate places matrix in view space, this updates transfrom by re-inverting the viewMatrix
+		matrixLib.InverseF(viewMatrix, camTransform);
 	}
 
 	void InitializeProjectionMatrix() {
 		float aspectRatio;
 		ogl.GetAspectRatio(aspectRatio);
-		matrixLib.ProjectionOpenGLRHF(fov * dToR, aspectRatio, 0.1, 100, projectionMatrix);
+		matrixLib.ProjectionOpenGLRHF(fov * dtor, aspectRatio, 0.1, 100, projectionMatrix);
 	}
 
 	void CreateVertexBuffer(const void* data, unsigned int sizeInBytes)
@@ -304,6 +312,7 @@ private:
 	}
 
 public:
+	float deltaTime = 0.0f;
 	void Render()
 	{
 		SetUpPipeline();
@@ -328,13 +337,15 @@ public:
 					ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
 					ubo.world = levelData.levelTransforms[instance.transformStart + t];
 					glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
-
+					
+					auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset)  * sizeof(unsigned int));
+					glDrawElements(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies);
 					//printf("model %s \t\t: indexStart %d mesh: %d indexOffset: %d \n", model.filename, model.indexStart, subMeshIdx,curMesh.drawInfo.indexOffset);
 
 				}
+
 			}
-			auto indicies = reinterpret_cast <GLvoid*> (model.indexStart * sizeof(unsigned int));
-			glDrawElements(GL_TRIANGLES, model.indexCount, GL_UNSIGNED_INT, indicies);
+
 		}
 	
 		
@@ -346,6 +357,80 @@ public:
 		auto curFrameTime = std::chrono::steady_clock::now();
 		deltaTime = std::chrono::duration_cast<std::chrono::microseconds>(curFrameTime - lastFrameTime).count() / 1000000.0f;
 		lastFrameTime = curFrameTime;
+	}
+
+	void UpdateCamera() {
+		//udpate position
+		GW::MATH::GVECTORF globalMoveVector = GW::MATH::GIdentityVectorF;
+		GW::MATH::GVECTORF localMoveVector = GW::MATH::GIdentityVectorF;
+		float yMove = 0;
+		float xMove = 0;
+		float zMove = 0;
+
+		float keyStates[256] = { 0 };
+		for (size_t i = 0; i < ARRAYSIZE(keyStates); i++)
+		{
+			inputLib.GetState(G_KEY_UNKNOWN + i, keyStates[i]);
+		}
+
+		float controllerStates[24] = { 0 };
+		bool controllerConnected = false;
+		int controllers;
+		controllerLib.GetNumConnected(controllers);
+		for (int c = 0; c < controllers; c++) {
+			controllerLib.IsConnected(c, controllerConnected);
+			if (controllerConnected) {
+				for (size_t i = 0; i < ARRAYSIZE(controllerStates); i++)
+				{
+					controllerLib.GetState(c, G_KEY_UNKNOWN + i, controllerStates[i]);
+				}
+				break;
+			}
+
+		} // yeah probably shouldnt be checking this every frame
+		
+
+
+		yMove = keyStates[G_KEY_SPACE] - keyStates[G_KEY_LEFTSHIFT] + controllerStates[G_RIGHT_TRIGGER_AXIS] - controllerStates[G_LEFT_TRIGGER_AXIS];
+		xMove = keyStates[G_KEY_D] - keyStates[G_KEY_A] + controllerStates[G_LX_AXIS];
+		zMove = keyStates[G_KEY_W] - keyStates[G_KEY_S] + controllerStates[G_LY_AXIS];
+
+		if (yMove != 0)
+		{
+			globalMoveVector.y = yMove * moveSpeed * deltaTime;
+			matrixLib.TranslateGlobalF(camTransform, globalMoveVector, camTransform);
+		}
+		if (xMove != 0 || zMove != 0)
+		{
+			localMoveVector.x = xMove * moveSpeed * deltaTime;
+			localMoveVector.z = -zMove * moveSpeed * deltaTime;
+			matrixLib.TranslateLocalF(camTransform, localMoveVector, camTransform);
+		}
+
+		//Update Rotation
+		GW::MATH::GMATRIXF pitchMatrix = GW::MATH::GIdentityMatrixF;
+		float thumbSpeed = G2D_PI_F * deltaTime;
+		float pitchMove = 0;
+		float yawMove = 0;
+		float xDelta, yDelta = 0;
+		GW::GReturn result = inputLib.GetMouseDelta(xDelta, yDelta);
+		if (result == GW::GReturn::SUCCESS && result != GW::GReturn::REDUNDANT) {
+
+			pitchMove = fov * sensitivity * yDelta / windowHeight;
+			yawMove = fov * sensitivity * xDelta / windowWidth;
+
+			matrixLib.RotateXLocalF(camTransform, -pitchMove, camTransform);
+			matrixLib.RotateYGlobalF(camTransform, -yawMove, camTransform);
+		}
+		else if (controllerConnected && (controllerStates[G_RY_AXIS] != 0 || controllerStates[G_RX_AXIS] != 0)) {
+			pitchMove += controllerStates[G_RY_AXIS] * thumbSpeed;
+			yawMove -= controllerStates[G_RX_AXIS] * thumbSpeed;
+
+			matrixLib.RotateXLocalF(camTransform, pitchMove, camTransform);
+			matrixLib.RotateYGlobalF(camTransform, yawMove, camTransform);
+		}
+
+		matrixLib.InverseF(camTransform, viewMatrix);
 	}
 private:
 
@@ -359,12 +444,16 @@ private:
 	}
 	void SetupUbo() 
 	{
+		ubo.camPos = camTransform.row4;
+		ubo.viewMatrix = viewMatrix;
+
 		// TODO: Part 2e
 		auto uboIndex = glGetUniformBlockIndex(shaderExecutable, "UboData");
 		// TODO: Part 2f
 		glBindBufferBase(GL_UNIFORM_BUFFER, uboBindingIndex, uboBufferObject);
 		// TODO: Part 2g
 		glUniformBlockBinding(shaderExecutable, uboIndex, uboBindingIndex);
+
 	}
 
 public:

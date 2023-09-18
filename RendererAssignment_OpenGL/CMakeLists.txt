@@ -22,7 +22,7 @@ set(SOURCE_CODE
 	FSLogo.h # keeping for testing for now
 	CameraController.h
 	load_data_oriented.h
-        load_object_oriented.h 
+        Camera.h
 )
 
 if(WIN32)

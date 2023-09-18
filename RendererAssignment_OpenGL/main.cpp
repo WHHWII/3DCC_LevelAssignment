@@ -10,12 +10,14 @@
 #define GATEWARE_DISABLE_GVULKANSURFACE // we have another template for this
 #define GATEWARE_DISABLE_GRASTERSURFACE // we have another template for this
 // With what we want & what we don't defined we can include the API
+#define GATEWARE_ENABLE_INPUT
 #include "../gateware/Gateware.h"
 #include "OpenGLExtensions.h"
 #include "FileIntoString.h"
 #include "load_data_oriented.h"
 #include "renderer.h" // example rendering code (not Gateware code!)
 #include "CameraController.h"
+#include "Camera.h"
 
 // open some namespaces to compact the code a bit
 using namespace GW;
@@ -62,6 +64,7 @@ int main()
 				glClearColor(clr[0], clr[1], clr[2], clr[3]);
 				glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 				renderer.TickFrame();
+				renderer.UpdateCamera();
 				renderer.Render();
 				ogl.UniversalSwapBuffers();
 			}

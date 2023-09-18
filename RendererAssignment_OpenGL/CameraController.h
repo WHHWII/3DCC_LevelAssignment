@@ -1,21 +1,18 @@
-#pragma once
-//
 //
 //class CameraController {
 //	GW::INPUT::GInput inputLib;
 //	GW::INPUT::GController controllerLib;
 //	GW::MATH::GMatrix matrixLib;
-//	float deltaTime = 0.0f;
-//	std::chrono::steady_clock::time_point lastFrameTime;
 //	unsigned int windowHeight = 0;
 //	unsigned int windowWidth = 0;
 //	const float moveSpeed = 0.3f;
 //	const float sensitivity = 0.1f;
+//	Renderer &renderer;
 //	GW::MATH::GMATRIXF *viewMatrix;
 //	const float pi = 3.14159265359f; // does gateware really not have pi? its gotta but i cant find it 
 //	const float fov = 65.0f; // need to make this not stored in two seperate places. probably need camera class.
 //public:
-//	CameraController(GWindow _win, GW::MATH::GMATRIXF &_viewMatrix) {
+//	CameraController(GWindow& _win, GW::MATH::GMATRIXF &_viewMatrix, Renderer &_renderer) : renderer(_renderer)  {
 //		inputLib.Create(_win);
 //		controllerLib.Create();
 //		matrixLib.Create();
@@ -25,9 +22,6 @@
 //	}
 //
 //	void UpdateCamera() {
-//		auto curFrameTime = std::chrono::steady_clock::now();
-//		deltaTime = std::chrono::duration_cast<std::chrono::microseconds>(curFrameTime - lastFrameTime).count() / 1000000.0f;
-//		lastFrameTime = curFrameTime;
 //
 //
 //		//udpate position
@@ -64,19 +58,19 @@
 //
 //		if (yMove != 0)
 //		{
-//			globalMoveVector.y = yMove * moveSpeed * deltaTime;
+//			globalMoveVector.y = yMove * moveSpeed * renderer.deltaTime;
 //			matrixLib.TranslateGlobalF(cameraMatrix, globalMoveVector, cameraMatrix);
 //		}
 //		if (xMove != 0 || zMove != 0)
 //		{
-//			localMoveVector.x = xMove * moveSpeed * deltaTime;
-//			localMoveVector.z = zMove * moveSpeed * deltaTime;
+//			localMoveVector.x = xMove * moveSpeed * renderer.deltaTime;
+//			localMoveVector.z = zMove * moveSpeed * renderer.deltaTime;
 //			matrixLib.TranslateLocalF(cameraMatrix, localMoveVector, cameraMatrix);
 //		}
 //
 //		//Update Rotation
 //		GW::MATH::GMATRIXF pitchMatrix = GW::MATH::GIdentityMatrixF;
-//		float thumbSpeed = pi * deltaTime;
+//		float thumbSpeed = pi * renderer.deltaTime;
 //		float pitchMove = 0;
 //		float yawMove = 0;
 //		float xDelta, yDelta = 0;
