@@ -151,7 +151,7 @@ private:
 	{
 		// TODO: Part 1c
 		CreateVertexBuffer(&levelData.levelVertices[0], levelData.levelVertices.size() * sizeof(H2B::VERTEX));
-		CreateIndexBuffer(&levelData.levelIndices[0], levelData.levelIndices.size() * sizeof(unsigned));
+		CreateIndexBuffer(&levelData.levelIndices[0], levelData.levelIndices.size() * sizeof(unsigned)); // sizeof data did not work for some reason
 		CreateUboBuffer(&ubo, sizeof(ubo));
 	}
 

@@ -7787,3 +7787,138 @@
 [Mon Sep 18 12:20:49 2023] ThreadID[27696]	[INFO]	H2B Imported: Suzanne.h2b
 [Mon Sep 18 12:20:49 2023] ThreadID[27696]	[MESSAGE]	Importing of .H2B File Data Complete.
 [Mon Sep 18 12:20:49 2023] ThreadID[27696]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	Start Program.
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Model Detected: Cube
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Model Detected: Cube.001
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Location: X 1.356300 Y 1.659000 Z 4.682100
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Model Detected: Cube.002
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Location: X -3.240900 Y 4.009500 Z -1.394600
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Model Detected: Cube.003
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Location: X -1.197200 Y 3.749700 Z 2.271100
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Model Detected: Suzanne.001
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	Location: X -0.954400 Y 2.160400 Z -3.079100
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	H2B Imported: Cube.h2b
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 12:32:32 2023] ThreadID[15020]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	Start Program.
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Model Detected: Cube
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Model Detected: Cube.001
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Location: X 1.356300 Y 1.659000 Z 4.682100
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Model Detected: Cube.002
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Location: X -3.240900 Y 4.009500 Z -1.394600
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Model Detected: Cube.003
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Location: X -1.197200 Y 3.749700 Z 2.271100
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Model Detected: Suzanne.001
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	Location: X -0.954400 Y 2.160400 Z -3.079100
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	H2B Imported: Cube.h2b
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 12:33:37 2023] ThreadID[14060]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	Start Program.
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Model Detected: Cube
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Model Detected: Cube.001
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Location: X 1.356300 Y 1.659000 Z 4.682100
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Model Detected: Cube.002
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Location: X -3.240900 Y 4.009500 Z -1.394600
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Model Detected: Cube.003
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Location: X -1.197200 Y 3.749700 Z 2.271100
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Model Detected: Suzanne.001
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	Location: X -0.954400 Y 2.160400 Z -3.079100
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	H2B Imported: Cube.h2b
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 12:34:21 2023] ThreadID[14744]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	Start Program.
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Model Detected: Cube
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Model Detected: Cube.001
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Location: X 1.356300 Y 1.659000 Z 4.682100
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Model Detected: Cube.002
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Location: X -3.240900 Y 4.009500 Z -1.394600
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Model Detected: Cube.003
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Location: X -1.197200 Y 3.749700 Z 2.271100
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Model Detected: Suzanne.001
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	Location: X -0.954400 Y 2.160400 Z -3.079100
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	H2B Imported: Cube.h2b
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 12:34:57 2023] ThreadID[14060]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	Start Program.
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Model Detected: Cube
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Model Detected: Cube.001
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Location: X 1.356300 Y 1.659000 Z 4.682100
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Model Detected: Cube.002
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Location: X -3.240900 Y 4.009500 Z -1.394600
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Model Detected: Cube.003
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Location: X -1.197200 Y 3.749700 Z 2.271100
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Model Detected: Suzanne.001
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	Location: X -0.954400 Y 2.160400 Z -3.079100
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	H2B Imported: Cube.h2b
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 12:40:45 2023] ThreadID[30324]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	Start Program.
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[INFO]	Model Detected: Cube
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[ERROR]	H2B Not Found: ../Models/Cube.h2b
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[WARNING]	Loading will continue but model(s) are missing.
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 12:46:50 2023] ThreadID[18060]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	Start Program.
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[MESSAGE]	Begin Reading Game Level Text File.
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	Model Detected: Cube
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	Location: X 0.000000 Y 3.152300 Z 0.000000
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	Model Detected: Suzanne
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	Location: X 3.000000 Y 4.152300 Z 3.000000
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[MESSAGE]	Game Level File Reading Complete.
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[MESSAGE]	Begin Importing .H2B File Data.
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[ERROR]	H2B Not Found: ../Models/Cube.h2b
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[WARNING]	Loading will continue but model(s) are missing.
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[INFO]	H2B Imported: Suzanne.h2b
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Mon Sep 18 12:48:00 2023] ThreadID[15868]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
