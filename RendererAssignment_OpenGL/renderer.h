@@ -103,7 +103,6 @@ public:
 	{
 		win = _win;
 		ogl = _ogl;
-
 		//levelData = _levelData;
 		// TODO: part 2a
 		matrixLib.Create();
@@ -336,12 +335,14 @@ public:
 					
 					ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
 					ubo.world = levelData.levelTransforms[instance.transformStart + t];
+					ubo.world.row4.x *= -1; // flip for rhanded
+					ubo.world.row1.z *= -1;
+					ubo.world.row3.x *= -1;
 					glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
 					
 					auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset)  * sizeof(unsigned int));
 					glDrawElementsInstancedBaseVertex(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies, 1, model.vertexStart);
-					//printf("model %s \t\t: indexStart %d mesh: %d indexOffset: %d \n", model.filename, model.indexStart, subMeshIdx,curMesh.drawInfo.indexOffset);
-
+					
 				}
 
 			}
