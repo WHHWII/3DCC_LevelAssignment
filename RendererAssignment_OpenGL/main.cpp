@@ -11,6 +11,8 @@
 #define GATEWARE_DISABLE_GRASTERSURFACE // we have another template for this
 // With what we want & what we don't defined we can include the API
 #define GATEWARE_ENABLE_INPUT
+#include <Windows.h>
+#include <ShObjIdl.h>
 #include "../gateware/Gateware.h"
 #include "OpenGLExtensions.h"
 #include "FileIntoString.h"
@@ -44,7 +46,7 @@ int main()
 	GWindow win;
 	GEventResponder msgs;
 	GOpenGLSurface ogl;
-	win.SetWindowName("Whitman Wilson - Assignment 2 - OpenGL");
+	
 	if (+win.Create(0, 0, 800, 600, GWindowStyle::WINDOWEDBORDERED))
 	{
 		// TODO: Part 1a
@@ -59,12 +61,13 @@ int main()
 		{
 			QueryOGLExtensionFunctions(ogl); // Link Needed OpenGL API functions
 			Renderer renderer(win, ogl, dataOrientedLoader);
+			win.SetWindowName("Whitman Wilson - Assignment 2 - OpenGL");
 			while (+win.ProcessWindowEvents())
 			{
 				glClearColor(clr[0], clr[1], clr[2], clr[3]);
 				glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 				renderer.TickFrame();
-				renderer.UpdateCamera();
+				renderer.HandleInput();
 				renderer.Render();
 				ogl.UniversalSwapBuffers();
 			}

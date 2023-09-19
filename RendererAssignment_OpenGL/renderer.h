@@ -1,4 +1,5 @@
 // TODO: Part 1b
+#include <commdlg.h>
 void PrintLabeledDebugString(const char* label, const char* toPrint)
 {
 	std::cout << label << toPrint << std::endl;
@@ -72,6 +73,10 @@ private:
 	float fov = 65.0f;
 	GW::MATH::GMATRIXF camTransform = GW::MATH::GIdentityMatrixF; // used for keeping track of cameras position indipendently of view Matrix
 
+	//input
+	float keyStates[256] = { 0 };
+	float controllerStates[24] = { 0 };
+	bool controllerConnected = false;
 
 	//light
 	GW::MATH::GVECTORF lightDirection = GW::MATH::GIdentityVectorF;
@@ -335,9 +340,9 @@ public:
 					
 					ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
 					ubo.world = levelData.levelTransforms[instance.transformStart + t];
-					ubo.world.row4.x *= -1; // flip for rhanded
-					ubo.world.row1.z *= -1;
-					ubo.world.row3.x *= -1;
+					ubo.world.row4.x *= -1; // flip pos for rhanded
+					ubo.world.row1.z *= -1; // correct y rotation 
+					ubo.world.row3.x *= -1; // correct y rotation
 					glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
 					
 					auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset)  * sizeof(unsigned int));
@@ -348,10 +353,6 @@ public:
 			}
 
 		}
-	
-		
-		//glDrawElementsInstancedBaseVertex(GL_TRIANGLES, levelData.levelInstances.size(), GL_UNSIGNED_INT, (GLvoid*)0, levelData.levelIndices.size(), 0);
-
 		glBindVertexArray(0); // some video cards(cough Intel) need this set back to zero or they won't display
 	}
 	void TickFrame() {
@@ -360,41 +361,15 @@ public:
 		lastFrameTime = curFrameTime;
 	}
 
+	//should seperate out into different class
 	void UpdateCamera() {
 		//udpate position
 		GW::MATH::GVECTORF globalMoveVector = GW::MATH::GIdentityVectorF;
 		GW::MATH::GVECTORF localMoveVector = GW::MATH::GIdentityVectorF;
-		float yMove = 0;
-		float xMove = 0;
-		float zMove = 0;
 
-		float keyStates[256] = { 0 };
-		for (size_t i = 0; i < ARRAYSIZE(keyStates); i++)
-		{
-			inputLib.GetState(G_KEY_UNKNOWN + i, keyStates[i]);
-		}
-
-		float controllerStates[24] = { 0 };
-		bool controllerConnected = false;
-		int controllers;
-		controllerLib.GetNumConnected(controllers);
-		for (int c = 0; c < controllers; c++) {
-			controllerLib.IsConnected(c, controllerConnected);
-			if (controllerConnected) {
-				for (size_t i = 0; i < ARRAYSIZE(controllerStates); i++)
-				{
-					controllerLib.GetState(c, G_KEY_UNKNOWN + i, controllerStates[i]);
-				}
-				break;
-			}
-
-		} // yeah probably shouldnt be checking this every frame
-		
-
-
-		yMove = keyStates[G_KEY_SPACE] - keyStates[G_KEY_LEFTSHIFT] + controllerStates[G_RIGHT_TRIGGER_AXIS] - controllerStates[G_LEFT_TRIGGER_AXIS];
-		xMove = keyStates[G_KEY_D] - keyStates[G_KEY_A] + controllerStates[G_LX_AXIS];
-		zMove = keyStates[G_KEY_W] - keyStates[G_KEY_S] + controllerStates[G_LY_AXIS];
+		float yMove = keyStates[G_KEY_SPACE] - keyStates[G_KEY_LEFTSHIFT] + controllerStates[G_RIGHT_TRIGGER_AXIS] - controllerStates[G_LEFT_TRIGGER_AXIS];
+		float xMove = keyStates[G_KEY_D] - keyStates[G_KEY_A] + controllerStates[G_LX_AXIS];
+		float zMove = keyStates[G_KEY_W] - keyStates[G_KEY_S] + controllerStates[G_LY_AXIS];
 
 		if (yMove != 0)
 		{
@@ -432,6 +407,82 @@ public:
 		}
 
 		matrixLib.InverseF(camTransform, viewMatrix);
+	}
+
+
+	void ChangeLevel() 
+	{
+		if (keyStates[G_KEY_F1] == 0) return;
+		//add debounce?
+		levelData.UnloadLevel();
+		printf("F1 pressed for changing levels");
+		HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED |
+			COINIT_DISABLE_OLE1DDE);
+		if (SUCCEEDED(hr))
+		{
+			IFileOpenDialog* pFileOpen;
+
+			// Create the FileOpenDialog object.
+			hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL,
+				IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
+
+			if (SUCCEEDED(hr))
+			{
+				// Show the Open dialog box.
+				hr = pFileOpen->Show(NULL);
+
+				// Get the file name from the dialog box.
+				if (SUCCEEDED(hr))
+				{
+					IShellItem* pItem;
+					hr = pFileOpen->GetResult(&pItem);
+					if (SUCCEEDED(hr))
+					{
+						PWSTR pszFilePath;
+						hr = pItem->GetDisplayName(SIGDN_FILESYSPATH, &pszFilePath);
+
+						// Display the file name to the user.
+						if (SUCCEEDED(hr))
+						{
+							MessageBoxW(NULL, pszFilePath, L"File Path", MB_OK);
+							CoTaskMemFree(pszFilePath);
+						}
+						pItem->Release();
+					}
+				}
+				pFileOpen->Release();
+			}
+			CoUninitialize();
+		}
+		return;
+	}
+	
+	//should seperate out into different class
+	void ReadInput() { 
+
+		for (size_t i = 0; i < ARRAYSIZE(keyStates); i++)
+		{
+			inputLib.GetState(G_KEY_UNKNOWN + i, keyStates[i]);
+		}
+		int controllers;
+		controllerLib.GetNumConnected(controllers);
+		for (int c = 0; c < controllers; c++) { // yeah probably shouldnt be checking this every frame
+			controllerLib.IsConnected(c, controllerConnected); 
+			if (controllerConnected) {
+				for (size_t i = 0; i < ARRAYSIZE(controllerStates); i++)
+				{
+					controllerLib.GetState(c, G_KEY_UNKNOWN + i, controllerStates[i]);
+				}
+				break;
+			}
+
+		} 
+
+	}
+	void HandleInput() {
+		ReadInput();
+		UpdateCamera();
+		ChangeLevel();
 	}
 private:
 
