@@ -1,5 +1,7 @@
-// TODO: Part 1b
-#include <commdlg.h>
+
+
+#include <filesystem>
+namespace fs = std::filesystem;
 void PrintLabeledDebugString(const char* label, const char* toPrint)
 {
 	std::cout << label << toPrint << std::endl;
@@ -414,14 +416,15 @@ public:
 	{
 		if (keyStates[G_KEY_F1] == 0) return;
 		//add debounce?
-		levelData.UnloadLevel();
 		printf("F1 pressed for changing levels");
+
 		HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED |
 			COINIT_DISABLE_OLE1DDE);
 		if (SUCCEEDED(hr))
 		{
 			IFileOpenDialog* pFileOpen;
 
+			//pulled from the winapi examples
 			// Create the FileOpenDialog object.
 			hr = CoCreateInstance(CLSID_FileOpenDialog, NULL, CLSCTX_ALL,
 				IID_IFileOpenDialog, reinterpret_cast<void**>(&pFileOpen));
@@ -444,7 +447,36 @@ public:
 						// Display the file name to the user.
 						if (SUCCEEDED(hr))
 						{
-							MessageBoxW(NULL, pszFilePath, L"File Path", MB_OK);
+							char charPath[255];
+							WideCharToMultiByte(CP_ACP,
+								0,
+								pszFilePath,
+								-1,
+								charPath,
+								sizeof(charPath),
+								NULL,
+								NULL);
+
+							std::string stringPath = charPath;
+							stringPath = escaped(stringPath);
+							std::replace(stringPath.begin(), stringPath.end(), '\\', '/');
+							strcpy(charPath, stringPath.c_str());
+							fs::path p(charPath);
+							fs::path base("./");
+							strcpy(charPath, fs::relative(p, base).string().c_str());
+							printf(charPath);
+							GW::SYSTEM::GLog log; // handy for logging any messages/warning/errors
+							// begin loading level
+							log.Create("../LevelLoaderLog.txt");
+							log.EnableConsoleLogging(true); // mirror output to the console
+							log.Log("Loading New Level.");
+
+							Level_Data newLevel;
+							if (newLevel.LoadLevel(charPath, MODEL_PATH, log)) {
+								levelData.UnloadLevel();
+								levelData = newLevel;
+							}
+						
 							CoTaskMemFree(pszFilePath);
 						}
 						pItem->Release();
@@ -456,7 +488,25 @@ public:
 		}
 		return;
 	}
-	
+	std::string escaped(const std::string& input)
+	{
+		std::string output;
+		output.reserve(input.size());
+		for (const char c : input) {
+			switch (c) {
+			case '\a':  output += "\\a";        break;
+			case '\b':  output += "\\b";        break;
+			case '\f':  output += "\\f";        break;
+			case '\n':  output += "\\n";        break;
+			case '\r':  output += "\\r";        break;
+			case '\t':  output += "\\t";        break;
+			case '\v':  output += "\\v";        break;
+			default:    output += c;            break;
+			}
+		}
+
+		return output;
+	}
 	//should seperate out into different class
 	void ReadInput() { 
 

@@ -4,6 +4,7 @@
 
 // This reads .h2b files which are optimized binary .obj+.mtl files
 #include "h2bParser.h"
+const char* MODEL_PATH = "../Models";
 
 class Level_Data {
 
@@ -129,6 +130,7 @@ private:
 						std::set<MODEL_ENTRY> &outModels,
 						GW::SYSTEM::GLog log) {
 		log.LogCategorized("MESSAGE", "Begin Reading Game Level Text File.");
+		log.LogCategorized("USING PATH", gameLevelPath);
 		GW::SYSTEM::GFile file;
 		file.Create();
 		if (-file.OpenTextRead(gameLevelPath)) {

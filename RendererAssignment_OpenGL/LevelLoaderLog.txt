@@ -10496,3 +10496,1180 @@
 [Mon Sep 18 23:02:11 2023] ThreadID[31548]	[INFO]	H2B Imported: Turret_Gun.h2b
 [Mon Sep 18 23:02:11 2023] ThreadID[31548]	[MESSAGE]	Importing of .H2B File Data Complete.
 [Mon Sep 18 23:02:11 2023] ThreadID[31548]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	Start Program.
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Character
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 12:50:18 2023] ThreadID[35956]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	Start Program.
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Character
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 13:28:30 2023] ThreadID[10008]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	Start Program.
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Character
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 13:29:16 2023] ThreadID[17804]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	Start Program.
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Character
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 13:29:51 2023] ThreadID[4592]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	Start Program.
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Character
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 16:11:56 2023] ThreadID[12240]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	Start Program.
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Character
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 22:44:42 2023] ThreadID[14844]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 22:52:02 2023] ThreadID[33184]	Start Program.
+[Tue Sep 19 22:52:02 2023] ThreadID[33184]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 22:52:02 2023] ThreadID[33184]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 22:52:02 2023] ThreadID[33184]	[ERROR]	Game level not found: ../Levels/GameLevel1.txt
+[Tue Sep 19 22:52:02 2023] ThreadID[33184]	[ERROR]	Fatal error reading game level, aborting level load.
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	Start Program.
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Character
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 22:52:28 2023] ThreadID[1400]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	Start Program.
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_4x4
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_4x4.001
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_4x4.002
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_4x4.003
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_2x2
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_2x2.001
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_2x2.002
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_4x1
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Platform_4x1.001
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Character
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Turret_Gun
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Turret_Gun.001
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Turret_Gun.002
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Sign_4
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Enemy_2Legs
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Enemy_2Legs.001
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Model Detected: Enemy_Large
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[MESSAGE]	Game Level File Reading Complete.
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[MESSAGE]	Begin Importing .H2B File Data.
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Character.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Sign_4.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Tue Sep 19 23:56:57 2023] ThreadID[30608]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Tue Sep 19 23:57:11 2023] ThreadID[30608]	Start Program.
+[Tue Sep 19 23:57:11 2023] ThreadID[30608]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Tue Sep 19 23:57:11 2023] ThreadID[30608]	[MESSAGE]	Begin Reading Game Level Text File.
+[Tue Sep 19 23:57:11 2023] ThreadID[30608]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel - Copy.txt
+[Tue Sep 19 23:57:11 2023] ThreadID[30608]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	Start Program.
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:04:59 2023] ThreadID[29244]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:05:04 2023] ThreadID[29244]	Start Program.
+[Wed Sep 20 00:05:04 2023] ThreadID[29244]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:05:04 2023] ThreadID[29244]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:05:04 2023] ThreadID[29244]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel.txt
+[Wed Sep 20 00:05:04 2023] ThreadID[29244]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	Start Program.
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:10:25 2023] ThreadID[29288]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:10:51 2023] ThreadID[29288]	Start Program.
+[Wed Sep 20 00:10:51 2023] ThreadID[29288]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:10:51 2023] ThreadID[29288]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:10:51 2023] ThreadID[29288]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\Blender Stuff\Original Level\Models\GameLevel.txt
+[Wed Sep 20 00:10:51 2023] ThreadID[29288]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	Start Program.
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[MESSAGE]	../Levels/GameLevel.txt
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:12:57 2023] ThreadID[35788]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:19:21 2023] ThreadID[35788]	Start Program.
+[Wed Sep 20 00:19:21 2023] ThreadID[35788]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:19:21 2023] ThreadID[35788]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:19:21 2023] ThreadID[35788]	[MESSAGE]	C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel.txt
+[Wed Sep 20 00:19:21 2023] ThreadID[35788]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel.txt
+[Wed Sep 20 00:19:21 2023] ThreadID[35788]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	Start Program.
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[Using Path:]	../Levels/GameLevel.txt
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:20:51 2023] ThreadID[21536]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	Start Program.
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[Using Path:]	../Levels/GameLevel.txt
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:22:06 2023] ThreadID[17860]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:22:11 2023] ThreadID[17860]	Loading New Level.
+[Wed Sep 20 00:22:11 2023] ThreadID[17860]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:22:11 2023] ThreadID[17860]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:22:11 2023] ThreadID[17860]	[Using Path:]	C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel.txt
+[Wed Sep 20 00:22:11 2023] ThreadID[17860]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel.txt
+[Wed Sep 20 00:22:11 2023] ThreadID[17860]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	Start Program.
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[Using Path:]	../Levels/GameLevel.txt
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:35:07 2023] ThreadID[30756]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:35:15 2023] ThreadID[30756]	Loading New Level.
+[Wed Sep 20 00:35:15 2023] ThreadID[30756]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:35:15 2023] ThreadID[30756]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:35:15 2023] ThreadID[30756]	[Using Path:]	C:\Users\werty\Desktop\3DCC\GameLevel.txt
+[Wed Sep 20 00:35:15 2023] ThreadID[30756]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\GameLevel.txt
+[Wed Sep 20 00:35:15 2023] ThreadID[30756]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	Start Program.
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:53:53 2023] ThreadID[13872]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:53:59 2023] ThreadID[13872]	Loading New Level.
+[Wed Sep 20 00:53:59 2023] ThreadID[13872]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:53:59 2023] ThreadID[13872]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:53:59 2023] ThreadID[13872]	[USING PATH]	C:/Users/werty/Desktop/3DCC/GameLevel.txt
+[Wed Sep 20 00:53:59 2023] ThreadID[13872]	[ERROR]	Game level not found: C:/Users/werty/Desktop/3DCC/GameLevel.txt
+[Wed Sep 20 00:53:59 2023] ThreadID[13872]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	Start Program.
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Character
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 00:54:21 2023] ThreadID[14188]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 00:54:31 2023] ThreadID[14188]	Loading New Level.
+[Wed Sep 20 00:54:31 2023] ThreadID[14188]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 00:54:31 2023] ThreadID[14188]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 00:54:31 2023] ThreadID[14188]	[USING PATH]	C:/Users/werty/Desktop/3DCC/3DCC_LevelAssignment/RendererAssignment_OpenGL/Levels/GameLevel.txt
+[Wed Sep 20 00:54:31 2023] ThreadID[14188]	[ERROR]	Game level not found: C:/Users/werty/Desktop/3DCC/3DCC_LevelAssignment/RendererAssignment_OpenGL/Levels/GameLevel.txt
+[Wed Sep 20 00:54:31 2023] ThreadID[14188]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	Start Program.
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Character
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 01:15:02 2023] ThreadID[25420]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 01:15:07 2023] ThreadID[25420]	Loading New Level.
+[Wed Sep 20 01:15:07 2023] ThreadID[25420]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 01:15:07 2023] ThreadID[25420]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 01:15:07 2023] ThreadID[25420]	[USING PATH]	C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel.txt
+[Wed Sep 20 01:15:07 2023] ThreadID[25420]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel.txt
+[Wed Sep 20 01:15:07 2023] ThreadID[25420]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	Start Program.
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Character
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 14:16:05 2023] ThreadID[18424]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 14:16:11 2023] ThreadID[18424]	Loading New Level.
+[Wed Sep 20 14:16:11 2023] ThreadID[18424]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 14:16:11 2023] ThreadID[18424]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 14:16:11 2023] ThreadID[18424]	[USING PATH]	C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel - Copy.txt
+[Wed Sep 20 14:16:11 2023] ThreadID[18424]	[ERROR]	Game level not found: C:\Users\werty\Desktop\3DCC\3DCC_LevelAssignment\RendererAssignment_OpenGL\Levels\GameLevel - Copy.txt
+[Wed Sep 20 14:16:11 2023] ThreadID[18424]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 14:17:37 2023] ThreadID[30624]	Start Program.
+[Wed Sep 20 14:17:37 2023] ThreadID[30624]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 14:17:37 2023] ThreadID[30624]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 14:17:37 2023] ThreadID[30624]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 14:17:37 2023] ThreadID[30624]	[ERROR]	Game level not found: ../Levels/GameLevel.txt
+[Wed Sep 20 14:17:37 2023] ThreadID[30624]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 14:17:45 2023] ThreadID[18236]	Start Program.
+[Wed Sep 20 14:17:45 2023] ThreadID[18236]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 14:17:45 2023] ThreadID[18236]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 14:17:45 2023] ThreadID[18236]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 14:17:45 2023] ThreadID[18236]	[ERROR]	Game level not found: ../Levels/GameLevel.txt
+[Wed Sep 20 14:17:45 2023] ThreadID[18236]	[ERROR]	Fatal error reading game level, aborting level load.
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	Start Program.
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Character
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 14:43:22 2023] ThreadID[22920]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	Start Program.
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Character
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 14:43:38 2023] ThreadID[10584]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	Loading New Level.
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[USING PATH]	..\Levels\GameLevel - Copy.txt
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Character
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 14:43:44 2023] ThreadID[10584]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]

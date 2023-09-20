@@ -13,6 +13,7 @@
 #define GATEWARE_ENABLE_INPUT
 #include <Windows.h>
 #include <ShObjIdl.h>
+
 #include "../gateware/Gateware.h"
 #include "OpenGLExtensions.h"
 #include "FileIntoString.h"
@@ -20,6 +21,7 @@
 #include "renderer.h" // example rendering code (not Gateware code!)
 #include "CameraController.h"
 #include "Camera.h"
+
 
 // open some namespaces to compact the code a bit
 using namespace GW;
@@ -38,7 +40,7 @@ int main()
 	log.Log("Start Program.");
 
 	Level_Data dataOrientedLoader;
-	dataOrientedLoader.LoadLevel("../GameLevel.txt", "../Models", log);
+	dataOrientedLoader.LoadLevel("../Levels/GameLevel.txt", MODEL_PATH, log);
 
 
 	
