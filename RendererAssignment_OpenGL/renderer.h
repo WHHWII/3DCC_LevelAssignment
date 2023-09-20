@@ -110,14 +110,12 @@ public:
 	{
 		win = _win;
 		ogl = _ogl;
-		//levelData = _levelData;
-		// TODO: part 2a
+
 		matrixLib.Create();
 		vectorLib.Create();
-		auto inputsuc = inputLib.Create(win);
-		printf("%d \n", inputsuc);
-		inputsuc = controllerLib.Create();
-		printf("%d \n", inputsuc);
+		inputLib.Create(win);
+		controllerLib.Create();
+
 		win.GetHeight(windowHeight);
 		win.GetWidth(windowWidth);
 
@@ -411,7 +409,7 @@ public:
 		matrixLib.InverseF(camTransform, viewMatrix);
 	}
 
-
+	//should sperate out into differnt class
 	void ChangeLevel() 
 	{
 		if (keyStates[G_KEY_F1] == 0) return;
@@ -457,14 +455,18 @@ public:
 								NULL,
 								NULL);
 
-							std::string stringPath = charPath;
-							stringPath = escaped(stringPath);
-							std::replace(stringPath.begin(), stringPath.end(), '\\', '/');
-							strcpy(charPath, stringPath.c_str());
+							//convert backslashes to forward slashes
+							//std::string stringPath = charPath;
+							//stringPath = escaped(stringPath);
+							//std::replace(stringPath.begin(), stringPath.end(), '\\', '/');
+							//strcpy(charPath, stringPath.c_str());
+
+							//create relative path from absPath gotten from fileDialouge so we can make gateware happy
 							fs::path p(charPath);
 							fs::path base("./");
 							strcpy(charPath, fs::relative(p, base).string().c_str());
-							printf(charPath);
+
+
 							GW::SYSTEM::GLog log; // handy for logging any messages/warning/errors
 							// begin loading level
 							log.Create("../LevelLoaderLog.txt");
@@ -475,6 +477,7 @@ public:
 							if (newLevel.LoadLevel(charPath, MODEL_PATH, log)) {
 								levelData.UnloadLevel();
 								levelData = newLevel;
+								InitializeGraphics();
 							}
 						
 							CoTaskMemFree(pszFilePath);
