@@ -11,6 +11,7 @@
 #define GATEWARE_DISABLE_GRASTERSURFACE // we have another template for this
 // With what we want & what we don't defined we can include the API
 #define GATEWARE_ENABLE_INPUT
+
 #include <Windows.h>
 #include <ShObjIdl.h>
 
@@ -19,9 +20,6 @@
 #include "FileIntoString.h"
 #include "load_data_oriented.h"
 #include "renderer.h" // example rendering code (not Gateware code!)
-#include "CameraController.h"
-#include "Camera.h"
-
 
 // open some namespaces to compact the code a bit
 using namespace GW;

@@ -18,41 +18,33 @@ struct OBJ_ATTRIBUTES
 };
 layout(row_major) uniform UboData
 {
-	vec4 sunDirection, sunColor;
 	mat4 viewMatrix, projectionMatrix;
-	mat4 worldMatrix;
-	OBJ_ATTRIBUTES material;
+	vec4 sunDirection, sunColor;
 	vec4 sunAmbient, camPos;
 };
 
+uniform uint uTransformIndex;
+uniform uint uMaterialIndex;
 
 layout (binding = 0, std430, row_major) buffer SSBO
 {
-	mat4 allTransforms[1000];
-	OBJ_ATTRIBUTES allMaterials[1000];
-	uint transformOffsets[1000];
-	uint materialOffsets[1000];
+	mat4 allTransforms[100];
+	OBJ_ATTRIBUTES allMaterials[100];
 };
 
-// TODO: Part 4e
-// TODO: Part 4b
 in vec3 worldNorm;
 in vec3 surfacePos;
+flat in int instanceID;
 void main() 
 {	
-	//Pixel = vec4(170/255.0f, 100/255.0f, 44/255.0f, 1); // TODO: Part 1a (optional)
-	// TODO: Part 3a
-
-	// TODO: Part 4c
+	OBJ_ATTRIBUTES curMat = allMaterials[uMaterialIndex];
 	float lighRatio = clamp(dot(worldNorm,-(sunDirection.xyz)), 0, 1);
-	vec4 newColor = sunColor * lighRatio * vec4(material.Kd,1);
+	vec4 newColor = sunColor * lighRatio * vec4(curMat.Kd,1);
 	
 	vec3 viewdir = normalize(camPos.xyz - surfacePos);
 	vec3 halfvec = normalize(-(sunDirection.xyz) + viewdir);
-	float intensity = max(clamp(pow(dot(worldNorm, halfvec),material.Ns), 0, 1), 0 );
-	vec4 reflectedlight = sunColor * vec4(material.Ks,1) * intensity;
-	newColor = clamp(newColor + sunAmbient, 0, 1) * vec4(material.Kd,1)  + reflectedlight;
+	float intensity = max(clamp(pow(dot(worldNorm, halfvec),curMat.Ns), 0, 1), 0 );
+	vec4 reflectedlight = sunColor * vec4(curMat.Ks,1) * intensity;
+	newColor = clamp(newColor + sunAmbient, 0, 1) * vec4(curMat.Kd,1)  + reflectedlight;
 	Pixel = newColor;
-	// TODO: Part 4e
-	// TODO: Part 4f (half-vector or reflect method)
 }

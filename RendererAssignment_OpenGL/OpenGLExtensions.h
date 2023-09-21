@@ -37,6 +37,7 @@ PFNGLBUFFERSUBDATAPROC						glBufferSubData = nullptr;
 PFNGLDRAWELEMENTSINSTANCEDBASEVERTEXPROC	glDrawElementsInstancedBaseVertex = nullptr;
 PFNGLSHADERSTORAGEBLOCKBINDINGPROC			glShaderStorageBlockBinding = nullptr;
 PFNGLGETPROGRAMRESOURCEINDEXPROC			glGetProgramResourceIndex = nullptr;
+PFNGLUNIFORM1UIPROC							glUniform1ui = nullptr;
 
 void QueryOGLExtensionFunctions(GW::GRAPHICS::GOpenGLSurface ogl)
 {
@@ -75,6 +76,7 @@ void QueryOGLExtensionFunctions(GW::GRAPHICS::GOpenGLSurface ogl)
 	ogl.QueryExtensionFunction(nullptr, "glDrawElementsInstancedBaseVertex", (void**)&glDrawElementsInstancedBaseVertex);
 	ogl.QueryExtensionFunction(nullptr, "glShaderStorageBlockBinding", (void**)&glShaderStorageBlockBinding);
 	ogl.QueryExtensionFunction(nullptr, "glGetProgramResourceIndex", (void**)&glGetProgramResourceIndex);
+	ogl.QueryExtensionFunction(nullptr, "glUniform1ui", (void**)&glUniform1ui);
 }
 
 #endif

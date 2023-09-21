@@ -18,22 +18,22 @@ struct OBJ_ATTRIBUTES
 
 layout(row_major) uniform UboData
 {
-	vec4 sunDirection, sunColor;
 	mat4 viewMatrix, projectionMatrix;
-	mat4 worldMatrix;
-	OBJ_ATTRIBUTES material;
+	vec4 sunDirection, sunColor;
 	vec4 sunAmbient, camPos;
 };
 
 
 layout (binding = 0, std430, row_major) buffer SSBO
 {
-	mat4 allTransforms[1000];
-	OBJ_ATTRIBUTES allMaterials[1000];
-	uint transformOffsets[1000];
-	uint materialOffsets[1000];
+	mat4 allTransforms[100];
+	OBJ_ATTRIBUTES allMaterials[100];
 };
 
+
+
+uniform uint uTransformIndex;
+uniform uint uMaterialIndex;
 
 
 // TODO: Part 4e
@@ -44,15 +44,15 @@ layout(location = 2) in vec3 local_nrm;
 // TODO: Part 4a
 out vec3 worldNorm;
 out vec3 surfacePos;
+flat out int instanceID;
 void main()
 {
-	// TODO: Part 1f
-	// TODO: Part 1f
-	// TODO: Part 1h
-	// TODO: Part 2h
-	surfacePos = (vec4(local_pos, 1) * worldMatrix).xyz;
-	surfacePos.x = -surfacePos.x;
+	instanceID = gl_InstanceID;
+	mat4 curWorld = allTransforms[uTransformIndex + instanceID];
+	surfacePos = (vec4(local_pos, 1) * curWorld).xyz;
+	surfacePos.x = -surfacePos.x; // correct transforms for conversion from LHDcoords to RHDcoords
 	gl_Position = vec4(surfacePos, 1) * viewMatrix * projectionMatrix;
 	// TODO: Part 4b
-	worldNorm = normalize(vec3(vec4(local_nrm, 0) * worldMatrix));
+	worldNorm = normalize(vec3(vec4(local_nrm, 0) * curWorld));
+	
 }

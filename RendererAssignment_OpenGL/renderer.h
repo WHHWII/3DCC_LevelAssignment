@@ -56,7 +56,7 @@ private:
 	GLuint uboBufferObject = 0;
 	GLuint uboBindingIndex = 0;
 
-	GLuint ssboObject = 0;
+	GLuint ssboBufferObject = 0;
 	GLuint ssboBindingIndex = 0;
 
 	GW::MATH::GVector vectorLib;
@@ -64,56 +64,53 @@ private:
 	GW::MATH::GMATRIXF worldMatrix =		GW::MATH::GIdentityMatrixF;
 	GW::MATH::GMATRIXF viewMatrix =			GW::MATH::GIdentityMatrixF;
 	GW::MATH::GMATRIXF projectionMatrix =	GW::MATH::GIdentityMatrixF;
-	int worldMatrixUniLocation = 0;
-	int viewMatrixUniLocation = 0;
-	int projectionMatrixUniLocation = 0;
+
+	//passed from instances during draw calls
+	int transfromIndexUniLocation = 0;
+	int materialIndexUniLocation = 0;
 	
+#pragma region CameraVars
 	//camera
 	GW::INPUT::GInput inputLib;
 	GW::INPUT::GController controllerLib;
 	unsigned int windowHeight = 0;
 	unsigned int windowWidth = 0;
-	const float moveSpeed = 1.2f;
+	const float moveSpeed = 2.0f;
 	const float sensitivity = 0.1f;
 	float fov = 65.0f;
 	GW::MATH::GMATRIXF camTransform = GW::MATH::GIdentityMatrixF; // used for keeping track of cameras position indipendently of view Matrix
+#pragma endregion CameraVars
 
+#pragma region  InputVars
 	//input
 	float keyStates[256] = { 0 };
 	float controllerStates[24] = { 0 };
 	bool controllerConnected = false;
+	std::chrono::steady_clock::time_point lastFrameTime;
+#pragma endregion InputVars
 
 	//light
 	GW::MATH::GVECTORF lightDirection = GW::MATH::GIdentityVectorF;
 	GW::MATH::GVECTORF lightColor = GW::MATH::GIdentityVectorF;
 	GW::MATH::GVECTORF ambientColor = GW::MATH::GIdentityVectorF;
-	//frame time
 	
-	std::chrono::steady_clock::time_point lastFrameTime;
+	
 
 	// TODO: Part 2b
 	struct UBO_DATA
 	{
-		GW::MATH::GVECTORF sunDirection, sunColor; 
 		GW::MATH::GMATRIXF viewMatrix, projectionMatrix;
-		GW::MATH::GMATRIXF world;
-		H2B::ATTRIBUTES material;
+		GW::MATH::GVECTORF sunDirection, sunColor; 
 		GW::MATH::GVECTORF sunAmbient, camPos;
 		
 		
 	};
-
-
-
 	UBO_DATA ubo;
 
 	struct SSBO_DATA
 	{
-		GW::MATH::GMATRIXF allTransforms[1000];
-		H2B::ATTRIBUTES allMaterials[1000];
-		unsigned transformOffsets[1000];
-		unsigned materialOffsets[1000];
-
+		GW::MATH::GMATRIXF allTransforms[100] = { GW::MATH::GIdentityVectorF };
+		H2B::ATTRIBUTES allMaterials[100];
 	};
 	SSBO_DATA ssbo;
 
@@ -139,9 +136,11 @@ public:
 		InitializeViewMatrix();
 		InitializeProjectionMatrix();
 		// TODO: Part 2b
-		InitializeUbo();
+
+		
 		// TODO: Part 4e
 		InitializeGraphics();
+		LocateUniforms();
 	}
 
 private:
@@ -151,10 +150,15 @@ private:
 #ifndef NDEBUG
 		BindDebugCallback(); // In debug mode we link openGL errors to the console
 #endif
+		InitializeUbo();
+		InitializeSSBO();
+
 		IntializeBuffers();
+
 		CompileVertexShader();
 		CompileFragmentShader();
 		CreateExecutableShaderProgram();
+
 		SetVertexAttributes();
 	}
 
@@ -168,7 +172,6 @@ private:
 
 	void IntializeBuffers()
 	{
-		// TODO: Part 1c
 		CreateVertexBuffer(&levelData.levelVertices[0], levelData.levelVertices.size() * sizeof(H2B::VERTEX));
 		CreateIndexBuffer(&levelData.levelIndices[0], levelData.levelIndices.size() * sizeof(unsigned)); // sizeof data did not work for some reason
 		CreateUboBuffer(&ubo, sizeof(ubo));
@@ -176,35 +179,22 @@ private:
 	}
 
 	void InitializeUbo() {
-		ubo.material = levelData.levelMaterials[0].attrib;
-		ubo.world = worldMatrix;
 		ubo.projectionMatrix = projectionMatrix;
 		ubo.viewMatrix = viewMatrix;
 		ubo.sunDirection = lightDirection;
 		ubo.sunColor = lightColor;
 		ubo.sunAmbient = ambientColor;
-		ubo.camPos = camTransform.row4; // will need to change for moving camera
+		ubo.camPos = camTransform.row4; 
 	}
 
+	//copy transforms and materials over into SSBO
 	void InitializeSSBO() {
-		//int transformOffset = 0;
-		//for (int i = 0; i < levelData.levelInstances.size(); i++) {
-		//	auto curInst = levelData.levelInstances[i];
-		//	for (int t = 0; t < curInst.transformCount; t++) {
-		//		ssbo.allTransforms[i + transformOffset] = curInst.transformCount
-		//	}
-		//}
 		for (int t = 0; t < levelData.levelTransforms.size(); t++) {
 			ssbo.allTransforms[t] = levelData.levelTransforms[t];
-		}
-		for (int i = 0; i < levelData.levelInstances.size(); i++) {
-			ssbo.transformOffsets[i] = levelData.levelInstances[i].transformStart;
-			ssbo.materialOffsets[i] = levelData.levelModels[levelData.levelInstances[i].modelIndex].materialStart;
 		}
 		for (int m = 0; m < levelData.levelMaterials.size(); m++) {
 			ssbo.allMaterials[m] = levelData.levelMaterials[m].attrib;
 		}
-
 
 	}
 
@@ -278,11 +268,16 @@ private:
 		glBindBuffer(GL_UNIFORM_BUFFER, uboBufferObject);
 		glBufferData(GL_UNIFORM_BUFFER, sizeInBytes, data, GL_DYNAMIC_DRAW);
 	}
+
 	void CreateSSBOBuffer() {
-		glGenBuffers(1, &ssboObject);
-		glBindBuffer(GL_SHADER_STORAGE_BUFFER, ssboObject);
+		glGenBuffers(1, &ssboBufferObject);
+		glBindBuffer(GL_SHADER_STORAGE_BUFFER, ssboBufferObject);
 		glBufferData(GL_SHADER_STORAGE_BUFFER, sizeof(SSBO_DATA), &ssbo, GL_DYNAMIC_COPY);
 		glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
+
+		GLuint loc = glGetProgramResourceIndex(shaderExecutable, GL_SHADER_STORAGE_BLOCK, "SSBO");
+		glShaderStorageBlockBinding(shaderExecutable, loc, ssboBindingIndex);
+		glBindBufferBase(GL_SHADER_STORAGE_BUFFER, ssboBindingIndex, ssboBufferObject);
 	}
 
 	void CompileVertexShader()
@@ -359,59 +354,93 @@ private:
 		glEnableVertexAttribArray(2);
 	}
 
+	void LocateUniforms() {
+		transfromIndexUniLocation = glGetUniformLocation(shaderExecutable, "uTransformIndex");
+		materialIndexUniLocation = glGetUniformLocation(shaderExecutable, "uMaterialIndex");
+	}
 public:
 	float deltaTime = 0.0f;
 	void Render()
 	{
 		SetUpPipeline();
 		SetupUbo();
-
-		//glDrawElements(GL_TRIANGLES, levelData.levelModels[1].indexCount, GL_UNSIGNED_INT, 0);
-		//TODO: need to loop through instances, and then draw the mesh(es) at each transform containted within the instance.
-		//later instanced rendering will do this.
+		SetupSSBO();
 		
+		
+		
+
 		for (int i = 0; i < levelData.levelInstances.size(); i++) // loop through all instances (unique models)
 		{
 
 			auto instance = levelData.levelInstances[i]; // each unique model is stored in an instance, which is used to draw the same model in different locs/orientations
 			auto model = levelData.levelModels[instance.modelIndex]; // the model of the instance
+			// update the uniform for the transformIndex and materialIndex
+			//printf("%s:     \t\t\ttransfromStart: %d | transfromCount: %d ||  materialStart: %d | materialCount: %d\n", model.filename, instance.transformStart, instance.transformCount,  model.materialStart, model.materialCount);
+			//for (int t = 0; t < instance.transformCount; t++) {
+			//	printf("-------- %d --------\n", t);
+			//	PrintMatrix(ssbo.allTransforms[instance.transformStart + t]);
+			//}
 			
-			H2B::MESH curMesh; //current submesh of the model
-			for (int t = 0; t < instance.transformCount; t++) {  // each unique location/orientation where this model is drawn
-				for (int subMeshIdx = 0; subMeshIdx < model.meshCount; subMeshIdx++) { // each sub mesh of the model
-					curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
+			
+			
+			//pass index offsets into ssbo arrays
+			
+			
 
-					
-					ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
-					ubo.world = levelData.levelTransforms[instance.transformStart + t];
+			//auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart) * sizeof(unsigned int));
+			//glDrawElementsInstancedBaseVertex(GL_TRIANGLES, model.indexCount, GL_UNSIGNED_INT, indicies, instance.transformCount, model.vertexStart);
 
-					//matrixLib.ScaleGlobalF(ubo.world, GW::MATH::GVECTORF{-1, 1, -1, 0}, ubo.world);
 
-					//ubo.world.row4.x *= -1; // flip pos for rhanded
-					//ubo.world.row1.z *= -1; // correct y rotation 
-					//ubo.world.row3.x *= -1; // correct y rotation
+			H2B::MESH curMesh;
+			for (int subMeshIdx = 0; subMeshIdx < model.meshCount; subMeshIdx++)  // each sub mesh of the model
+			{ 
+				curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
 
-					// update the uniform for the transformIndex and materialIndex
+				glUniform1ui(transfromIndexUniLocation, instance.transformStart);
+				glUniform1ui(materialIndexUniLocation, model.materialStart + curMesh.materialIndex);
+				
 
-					glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
-					
-					auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset)  * sizeof(unsigned int));
-					glDrawElementsInstancedBaseVertex(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies, 1, model.vertexStart);
-					
-				}
+				auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset) * sizeof(unsigned int));
+				glDrawElementsInstancedBaseVertex(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies, instance.transformCount, model.vertexStart);
 
 			}
 
+			//H2B::MESH curMesh; //current submesh of the model
+			//for (int t = 0; t < instance.transformCount; t++) {  // each unique location/orientation where this model is drawn
+			//	for (int subMeshIdx = 0; subMeshIdx < model.meshCount; subMeshIdx++) { // each sub mesh of the model
+			//		curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
+			//
+			//		
+			//		ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
+			//		ubo.world = levelData.levelTransforms[instance.transformStart + t];
+			//		
+			//		glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
+			//		
+			//
+			//		auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset) * sizeof(unsigned int));
+			//		glDrawElementsInstancedBaseVertex(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies, 1, model.vertexStart);
+			//	}
+			//
+			//}
+
 		}
+		glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
 		glBindVertexArray(0); // some video cards(cough Intel) need this set back to zero or they won't display
+		glUseProgram(0);
 	}
+
+
+
+#pragma region stowaways
+
+
+
 	//should seperate out int different class
 	void TickFrame() {
 		auto curFrameTime = std::chrono::steady_clock::now();
 		deltaTime = std::chrono::duration_cast<std::chrono::microseconds>(curFrameTime - lastFrameTime).count() / 1000000.0f;
 		lastFrameTime = curFrameTime;
 	}
-
 	//should seperate out into different class
 	void UpdateCamera() {
 		//udpate position
@@ -441,7 +470,7 @@ public:
 		float yawMove = 0;
 		float xDelta, yDelta = 0;
 		GW::GReturn result = inputLib.GetMouseDelta(xDelta, yDelta);
-		if (result == GW::GReturn::SUCCESS && result != GW::GReturn::REDUNDANT) {
+		if (keyStates[G_BUTTON_LEFT] == 1 && result == GW::GReturn::SUCCESS && result != GW::GReturn::REDUNDANT) {
 
 			pitchMove = fov * sensitivity * yDelta / windowHeight;
 			yawMove = fov * sensitivity * xDelta / windowWidth;
@@ -459,7 +488,6 @@ public:
 
 		matrixLib.InverseF(camTransform, viewMatrix);
 	}
-
 	//should sperate out into differnt class
 	void ChangeLevel() 
 	{
@@ -558,11 +586,14 @@ public:
 		} 
 
 	}
+
 	void HandleInput() {
 		ReadInput();
 		UpdateCamera();
 		ChangeLevel();
 	}
+#pragma endregion stowaways
+
 private:
 
 
@@ -574,9 +605,11 @@ private:
 		glBindVertexArray(vertexArray);
 	}
 	void SetupUbo() 
-	{
+	{		
+		//pass camera info for movement
 		ubo.camPos = camTransform.row4;
 		ubo.viewMatrix = viewMatrix;
+		glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
 
 		// TODO: Part 2e
 		auto uboIndex = glGetUniformBlockIndex(shaderExecutable, "UboData");
@@ -585,14 +618,18 @@ private:
 		// TODO: Part 2g
 		glUniformBlockBinding(shaderExecutable, uboIndex, uboBindingIndex);
 
+		
+
 	}
 	void SetupSSBO() {
 
 
+		glBindBuffer(GL_SHADER_STORAGE_BUFFER, ssboBufferObject);
+		glBufferSubData(GL_SHADER_STORAGE_BUFFER, 0, sizeof(SSBO_DATA), &ssbo);		// used to update buffer if need be
+		glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
 
-		GLuint loc = glGetProgramResourceIndex(shaderExecutable, GL_SHADER_STORAGE_BLOCK, "SSBO");
-		glShaderStorageBlockBinding(shaderExecutable, loc, ssboBindingIndex);
-		glBindBufferBase(GL_SHADER_STORAGE_BUFFER, ssboBindingIndex, ssboObject);
+		glBindBuffer(GL_SHADER_STORAGE_BUFFER, ssboBufferObject);
+
 	}
 
 public:
@@ -608,5 +645,6 @@ public:
 		glDeleteProgram(shaderExecutable);
 		// TODO: Part 2c
 		glDeleteBuffers(1, &uboBufferObject);
+		glDeleteBuffers(1, &ssboBufferObject);
 	}
 };
