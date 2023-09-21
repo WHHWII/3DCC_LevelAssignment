@@ -52,10 +52,13 @@ private:
 	GLuint fragmentShader = 0;
 	GLuint shaderExecutable = 0;
 
-	// TODO: Part 2c
+
 	GLuint uboBufferObject = 0;
 	GLuint uboBindingIndex = 0;
-	// TODO: Part 2a
+
+	GLuint ssboObject = 0;
+	GLuint ssboBindingIndex = 0;
+
 	GW::MATH::GVector vectorLib;
 	GW::MATH::GMatrix matrixLib;
 	GW::MATH::GMATRIXF worldMatrix =		GW::MATH::GIdentityMatrixF;
@@ -100,7 +103,19 @@ private:
 		
 	};
 
+
+
 	UBO_DATA ubo;
+
+	struct SSBO_DATA
+	{
+		GW::MATH::GMATRIXF allTransforms[1000];
+		H2B::ATTRIBUTES allMaterials[1000];
+		unsigned transformOffsets[1000];
+		unsigned materialOffsets[1000];
+
+	};
+	SSBO_DATA ssbo;
 
 	const float dtor = 0.0174533f;
 public:
@@ -157,6 +172,7 @@ private:
 		CreateVertexBuffer(&levelData.levelVertices[0], levelData.levelVertices.size() * sizeof(H2B::VERTEX));
 		CreateIndexBuffer(&levelData.levelIndices[0], levelData.levelIndices.size() * sizeof(unsigned)); // sizeof data did not work for some reason
 		CreateUboBuffer(&ubo, sizeof(ubo));
+		CreateSSBOBuffer();
 	}
 
 	void InitializeUbo() {
@@ -168,6 +184,28 @@ private:
 		ubo.sunColor = lightColor;
 		ubo.sunAmbient = ambientColor;
 		ubo.camPos = camTransform.row4; // will need to change for moving camera
+	}
+
+	void InitializeSSBO() {
+		//int transformOffset = 0;
+		//for (int i = 0; i < levelData.levelInstances.size(); i++) {
+		//	auto curInst = levelData.levelInstances[i];
+		//	for (int t = 0; t < curInst.transformCount; t++) {
+		//		ssbo.allTransforms[i + transformOffset] = curInst.transformCount
+		//	}
+		//}
+		for (int t = 0; t < levelData.levelTransforms.size(); t++) {
+			ssbo.allTransforms[t] = levelData.levelTransforms[t];
+		}
+		for (int i = 0; i < levelData.levelInstances.size(); i++) {
+			ssbo.transformOffsets[i] = levelData.levelInstances[i].transformStart;
+			ssbo.materialOffsets[i] = levelData.levelModels[levelData.levelInstances[i].modelIndex].materialStart;
+		}
+		for (int m = 0; m < levelData.levelMaterials.size(); m++) {
+			ssbo.allMaterials[m] = levelData.levelMaterials[m].attrib;
+		}
+
+
 	}
 
 	void PrintMatrix(GW::MATH::GMATRIXF mat) {
@@ -239,6 +277,12 @@ private:
 		glGenBuffers(1, &uboBufferObject);
 		glBindBuffer(GL_UNIFORM_BUFFER, uboBufferObject);
 		glBufferData(GL_UNIFORM_BUFFER, sizeInBytes, data, GL_DYNAMIC_DRAW);
+	}
+	void CreateSSBOBuffer() {
+		glGenBuffers(1, &ssboObject);
+		glBindBuffer(GL_SHADER_STORAGE_BUFFER, ssboObject);
+		glBufferData(GL_SHADER_STORAGE_BUFFER, sizeof(SSBO_DATA), &ssbo, GL_DYNAMIC_COPY);
+		glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
 	}
 
 	void CompileVertexShader()
@@ -340,9 +384,15 @@ public:
 					
 					ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
 					ubo.world = levelData.levelTransforms[instance.transformStart + t];
-					ubo.world.row4.x *= -1; // flip pos for rhanded
-					ubo.world.row1.z *= -1; // correct y rotation 
-					ubo.world.row3.x *= -1; // correct y rotation
+
+					//matrixLib.ScaleGlobalF(ubo.world, GW::MATH::GVECTORF{-1, 1, -1, 0}, ubo.world);
+
+					//ubo.world.row4.x *= -1; // flip pos for rhanded
+					//ubo.world.row1.z *= -1; // correct y rotation 
+					//ubo.world.row3.x *= -1; // correct y rotation
+
+					// update the uniform for the transformIndex and materialIndex
+
 					glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
 					
 					auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset)  * sizeof(unsigned int));
@@ -355,6 +405,7 @@ public:
 		}
 		glBindVertexArray(0); // some video cards(cough Intel) need this set back to zero or they won't display
 	}
+	//should seperate out int different class
 	void TickFrame() {
 		auto curFrameTime = std::chrono::steady_clock::now();
 		deltaTime = std::chrono::duration_cast<std::chrono::microseconds>(curFrameTime - lastFrameTime).count() / 1000000.0f;
@@ -455,12 +506,6 @@ public:
 								NULL,
 								NULL);
 
-							//convert backslashes to forward slashes
-							//std::string stringPath = charPath;
-							//stringPath = escaped(stringPath);
-							//std::replace(stringPath.begin(), stringPath.end(), '\\', '/');
-							//strcpy(charPath, stringPath.c_str());
-
 							//create relative path from absPath gotten from fileDialouge so we can make gateware happy
 							fs::path p(charPath);
 							fs::path base("./");
@@ -490,25 +535,6 @@ public:
 			CoUninitialize();
 		}
 		return;
-	}
-	std::string escaped(const std::string& input)
-	{
-		std::string output;
-		output.reserve(input.size());
-		for (const char c : input) {
-			switch (c) {
-			case '\a':  output += "\\a";        break;
-			case '\b':  output += "\\b";        break;
-			case '\f':  output += "\\f";        break;
-			case '\n':  output += "\\n";        break;
-			case '\r':  output += "\\r";        break;
-			case '\t':  output += "\\t";        break;
-			case '\v':  output += "\\v";        break;
-			default:    output += c;            break;
-			}
-		}
-
-		return output;
 	}
 	//should seperate out into different class
 	void ReadInput() { 
@@ -559,6 +585,14 @@ private:
 		// TODO: Part 2g
 		glUniformBlockBinding(shaderExecutable, uboIndex, uboBindingIndex);
 
+	}
+	void SetupSSBO() {
+
+
+
+		GLuint loc = glGetProgramResourceIndex(shaderExecutable, GL_SHADER_STORAGE_BLOCK, "SSBO");
+		glShaderStorageBlockBinding(shaderExecutable, loc, ssboBindingIndex);
+		glBindBufferBase(GL_SHADER_STORAGE_BUFFER, ssboBindingIndex, ssboObject);
 	}
 
 public:

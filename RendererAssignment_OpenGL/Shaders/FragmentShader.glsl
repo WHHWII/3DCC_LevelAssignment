@@ -1,4 +1,4 @@
-#version 330 // GLSL 3.30
+#version 430 // GLSL 4.30
 out vec4 Pixel;
 // an ultra simple glsl fragment shader
 // TODO: Part 3a
@@ -24,6 +24,16 @@ layout(row_major) uniform UboData
 	OBJ_ATTRIBUTES material;
 	vec4 sunAmbient, camPos;
 };
+
+
+layout (binding = 0, std430, row_major) buffer SSBO
+{
+	mat4 allTransforms[1000];
+	OBJ_ATTRIBUTES allMaterials[1000];
+	uint transformOffsets[1000];
+	uint materialOffsets[1000];
+};
+
 // TODO: Part 4e
 // TODO: Part 4b
 in vec3 worldNorm;

@@ -29,12 +29,14 @@ PFNGLDELETEBUFFERSPROC				glDeleteBuffers = nullptr;
 PFNGLDELETEPROGRAMPROC				glDeleteProgram = nullptr;
 PFNGLDELETEVERTEXARRAYSPROC			glDeleteVertexArrays = nullptr;
 PFNGLDEBUGMESSAGECALLBACKPROC		glDebugMessageCallback = nullptr;
-// TODO: Part 2d
+
 PFNGLGETUNIFORMBLOCKINDEXPROC				glGetUniformBlockIndex = nullptr;
 PFNGLBINDBUFFERBASEPROC						glBindBufferBase = nullptr;
 PFNGLUNIFORMBLOCKBINDINGPROC				glUniformBlockBinding = nullptr;
 PFNGLBUFFERSUBDATAPROC						glBufferSubData = nullptr;
 PFNGLDRAWELEMENTSINSTANCEDBASEVERTEXPROC	glDrawElementsInstancedBaseVertex = nullptr;
+PFNGLSHADERSTORAGEBLOCKBINDINGPROC			glShaderStorageBlockBinding = nullptr;
+PFNGLGETPROGRAMRESOURCEINDEXPROC			glGetProgramResourceIndex = nullptr;
 
 void QueryOGLExtensionFunctions(GW::GRAPHICS::GOpenGLSurface ogl)
 {
@@ -65,12 +67,14 @@ void QueryOGLExtensionFunctions(GW::GRAPHICS::GOpenGLSurface ogl)
 	ogl.QueryExtensionFunction(nullptr, "glDeleteProgram", (void**)&glDeleteProgram);
 	ogl.QueryExtensionFunction(nullptr, "glDeleteVertexArrays", (void**)&glDeleteVertexArrays);
 	ogl.QueryExtensionFunction(nullptr, "glDebugMessageCallback", (void**)&glDebugMessageCallback);
-	// TODO: Part 2d
+
 	ogl.QueryExtensionFunction(nullptr, "glGetUniformBlockIndex", (void**)&glGetUniformBlockIndex);
 	ogl.QueryExtensionFunction(nullptr, "glBindBufferBase", (void**)&glBindBufferBase);
 	ogl.QueryExtensionFunction(nullptr, "glUniformBlockBinding", (void**)&glUniformBlockBinding);
 	ogl.QueryExtensionFunction(nullptr, "glBufferSubData", (void**)&glBufferSubData);
 	ogl.QueryExtensionFunction(nullptr, "glDrawElementsInstancedBaseVertex", (void**)&glDrawElementsInstancedBaseVertex);
+	ogl.QueryExtensionFunction(nullptr, "glShaderStorageBlockBinding", (void**)&glShaderStorageBlockBinding);
+	ogl.QueryExtensionFunction(nullptr, "glGetProgramResourceIndex", (void**)&glGetProgramResourceIndex);
 }
 
 #endif

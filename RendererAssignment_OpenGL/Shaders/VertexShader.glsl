@@ -1,4 +1,4 @@
-#version 330 // GLSL 3.30
+#version 430 // GLSL 4.30
 // an ultra simple glsl vertex shader
 // TODO: Part 2b
 struct OBJ_ATTRIBUTES
@@ -26,6 +26,15 @@ layout(row_major) uniform UboData
 };
 
 
+layout (binding = 0, std430, row_major) buffer SSBO
+{
+	mat4 allTransforms[1000];
+	OBJ_ATTRIBUTES allMaterials[1000];
+	uint transformOffsets[1000];
+	uint materialOffsets[1000];
+};
+
+
 
 // TODO: Part 4e
 // TODO: Part 1f
@@ -42,6 +51,7 @@ void main()
 	// TODO: Part 1h
 	// TODO: Part 2h
 	surfacePos = (vec4(local_pos, 1) * worldMatrix).xyz;
+	surfacePos.x = -surfacePos.x;
 	gl_Position = vec4(surfacePos, 1) * viewMatrix * projectionMatrix;
 	// TODO: Part 4b
 	worldNorm = normalize(vec3(vec4(local_nrm, 0) * worldMatrix));

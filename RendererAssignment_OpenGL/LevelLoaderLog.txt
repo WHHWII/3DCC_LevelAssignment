@@ -12190,3 +12190,1306 @@
 [Wed Sep 20 16:27:17 2023] ThreadID[24600]	[WARNING]	Loading will continue but model(s) are missing.
 [Wed Sep 20 16:27:17 2023] ThreadID[24600]	[MESSAGE]	Importing of .H2B File Data Complete.
 [Wed Sep 20 16:27:17 2023] ThreadID[24600]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	Start Program.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Character
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 16:47:07 2023] ThreadID[7260]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	Start Program.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:09:36 2023] ThreadID[36508]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	Start Program.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:14:20 2023] ThreadID[24704]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	Start Program.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:17:26 2023] ThreadID[33032]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	Start Program.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:18:04 2023] ThreadID[26168]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	Start Program.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:21:17 2023] ThreadID[6804]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	Loading New Level.
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[USING PATH]	..\Levels\GameLevel1.txt
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:21:53 2023] ThreadID[6804]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	Start Program.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:26:39 2023] ThreadID[35116]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	Start Program.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:27:06 2023] ThreadID[7260]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	Start Program.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:27:24 2023] ThreadID[5064]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	Start Program.
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:27:43 2023] ThreadID[31452]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:27:44 2023] ThreadID[31452]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	Start Program.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:28:03 2023] ThreadID[16128]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	Start Program.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:28:28 2023] ThreadID[32752]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	Start Program.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:28:46 2023] ThreadID[21624]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	Start Program.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:29:01 2023] ThreadID[4172]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	Start Program.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Character2
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	H2B Imported: Character2.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:35:40 2023] ThreadID[16276]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	Start Program.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Character2
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	H2B Imported: Character2.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:36:20 2023] ThreadID[13616]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	Loading New Level.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[USING PATH]	..\Levels\GameLevel.txt
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:37:25 2023] ThreadID[13616]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	Start Program.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:40:26 2023] ThreadID[29492]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	Start Program.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[USING PATH]	../Levels/GameLevel.txt
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4.004
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Tank_Cylinder.006
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X 5.436300 Y -0.411600 Z 7.171700
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Pipe_2_Cube.037
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -11.159800 Y -0.001000 Z 10.050800
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Pipe_2_Cube.001
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.743500
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Pipe_2_Cube.002
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -11.159800 Y -0.001000 Z 9.406000
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: AC_Stacked_Cube.026
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -9.699600 Y 0.177200 Z 9.815900
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Light_Street_2_Cylinder
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -16.472601 Y -0.183500 Z 2.626400
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Light_Street_2_Cylinder.001
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -9.537700 Y -0.183500 Z 7.355300
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Light_Street_2_Cylinder.002
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -8.752100 Y 2.513100 Z -6.502200
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Model Detected: Light_Street_2_Cylinder.003
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	Location: X -1.133000 Y 0.331000 Z 5.718100
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[ERROR]	H2B Not Found: ../Models/AC_Stacked_Cube.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[ERROR]	H2B Not Found: ../Models/Light_Street_2_Cylinder.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[ERROR]	H2B Not Found: ../Models/Pipe_2_Cube.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[ERROR]	H2B Not Found: ../Models/Tank_Cylinder.h2b
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[WARNING]	Loading will continue but model(s) are missing.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:41:24 2023] ThreadID[25580]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	Loading New Level.
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[MESSAGE]	Begin Reading Game Level Text File.
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[USING PATH]	..\Levels\GameLevel1.txt
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4.001
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X 0.000000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4.002
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x4.003
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -11.098000 Y 0.000000 Z -0.063100
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_2x2
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -5.218000 Y 0.000000 Z -3.970000
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_2x2.001
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -5.218000 Y 0.000000 Z 14.533600
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_2x2.002
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -5.218000 Y 0.000000 Z 3.770600
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x1
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -5.155900 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Platform_4x1.001
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -5.401500 Y 0.000000 Z 8.688000
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Character
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X 0.000000 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Turret_Gun
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -10.371900 Y 0.000000 Z 0.000000
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Turret_Gun.001
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -10.371900 Y 0.000000 Z 8.256100
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Turret_Gun.002
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -0.821000 Y 0.000000 Z 8.256100
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Enemy_Flying_Gun
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -5.954200 Y 1.373800 Z 9.375500
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Sign_4
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X 0.881900 Y -0.601100 Z 6.565300
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Enemy_2Legs
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X 0.750400 Y -0.012000 Z 8.798600
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Enemy_2Legs.001
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -11.393300 Y -0.012000 Z 8.798600
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Model Detected: Enemy_Large
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	Location: X -11.861200 Y 0.043900 Z 0.000000
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[MESSAGE]	Game Level File Reading Complete.
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[MESSAGE]	Begin Importing .H2B File Data.
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Character.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Enemy_2Legs.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Enemy_Flying_Gun.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Enemy_Large.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Sign_4.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[INFO]	H2B Imported: Turret_Gun.h2b
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Wed Sep 20 18:41:58 2023] ThreadID[25580]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
