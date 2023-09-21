@@ -374,29 +374,14 @@ public:
 
 			auto instance = levelData.levelInstances[i]; // each unique model is stored in an instance, which is used to draw the same model in different locs/orientations
 			auto model = levelData.levelModels[instance.modelIndex]; // the model of the instance
-			// update the uniform for the transformIndex and materialIndex
-			//printf("%s:     \t\t\ttransfromStart: %d | transfromCount: %d ||  materialStart: %d | materialCount: %d\n", model.filename, instance.transformStart, instance.transformCount,  model.materialStart, model.materialCount);
-			//for (int t = 0; t < instance.transformCount; t++) {
-			//	printf("-------- %d --------\n", t);
-			//	PrintMatrix(ssbo.allTransforms[instance.transformStart + t]);
-			//}
-			
-			
-			
-			//pass index offsets into ssbo arrays
-			
-			
 
-			//auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart) * sizeof(unsigned int));
-			//glDrawElementsInstancedBaseVertex(GL_TRIANGLES, model.indexCount, GL_UNSIGNED_INT, indicies, instance.transformCount, model.vertexStart);
+			glUniform1ui(transfromIndexUniLocation, instance.transformStart);
 
-
-			H2B::MESH curMesh;
 			for (int subMeshIdx = 0; subMeshIdx < model.meshCount; subMeshIdx++)  // each sub mesh of the model
 			{ 
-				curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
+				auto curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
 
-				glUniform1ui(transfromIndexUniLocation, instance.transformStart);
+				
 				glUniform1ui(materialIndexUniLocation, model.materialStart + curMesh.materialIndex);
 				
 
