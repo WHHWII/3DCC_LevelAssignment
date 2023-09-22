@@ -28,7 +28,7 @@ MessageCallback(GLenum source, GLenum type, GLuint id,
 	errMessage += ", message = ";
 	errMessage += message;
 	errMessage += "\n";
-
+	
 	PrintLabeledDebugString("GL CALLBACK: ", errMessage.c_str());
 }
 #endif
