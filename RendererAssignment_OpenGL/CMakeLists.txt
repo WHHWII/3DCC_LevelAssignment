@@ -36,7 +36,8 @@ if(WIN32)
 	#this will tell Visual Studio to put the shaders under their own group in the solution explorer 
 	set_property(GLOBAL PROPERTY USE_FOLDERS ON)
    	source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${VERTEX_SHADERS})
-    source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${PIXEL_SHADERS})
+	source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${GEOMETRY_SHADERS})
+    	source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${PIXEL_SHADERS})
 endif()
 
 # currently using unicode in some libraries on win32 but will change soon
@@ -59,5 +60,5 @@ add_executable (LevelRenderer_OpenGL
 	${GEOMETRY_SHADERS}
 	${PIXEL_SHADERS}
 )
-
+target_compile_features(LevelRenderer_OpenGL PUBLIC cxx_std_17)
 
