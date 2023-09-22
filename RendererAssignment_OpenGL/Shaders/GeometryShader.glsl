@@ -57,10 +57,15 @@ layout (triangle_strip, max_vertices = 3) out;
 
 void main()
 {
+	vec3 vector0 = vec3(gl_in[0].gl_Position - gl_in[1].gl_Position);
+	vec3 vector1 = vec3(gl_in[2].gl_Position - gl_in[1].gl_Position);
+	vec4 surfaceNorm = vec4(normalize(cross(vector0,vector1)),0.0f);
+
+
 	int i;
 	for (i = 0; i < gl_in.length(); i++)
     {
-        gl_Position = gl_in[i].gl_Position * projectionMatrix;
+        gl_Position = (gl_in[i].gl_Position + surfaceNorm) * projectionMatrix;
 		worldNorm = data_in[0].worldNorm;
 		surfacePos = data_in[i].surfacePos;
 		instanceID = data_in[i].instanceID;
