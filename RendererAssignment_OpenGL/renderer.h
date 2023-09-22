@@ -36,41 +36,48 @@ MessageCallback(GLenum source, GLenum type, GLuint id,
 // Creation, Rendering & Cleanup
 class Renderer
 {
-public:
+
+private:
 	// proxy handles
 	GW::SYSTEM::GWindow win;
-private:
 	GW::GRAPHICS::GOpenGLSurface ogl;
 	Level_Data &levelData;
 
-	// what we need at a minimum to draw a triangle
+	// buffers
 	GLuint vertexArray = 0;
 	GLuint vertexBufferObject = 0;
-	// TODO: Part 1g
 	GLuint indexBufferObject = 0;
+	GLuint uboBufferObject = 0;
+	GLuint uboBindingIndex = 0;
+	GLuint ssboBufferObject = 0;
+	GLuint ssboBindingIndex = 0;
+
+
+	//shader vars
 	GLuint vertexShader = 0;
 	GLuint fragmentShader = 0;
 	GLuint geometryShader = 0;
 	GLuint shaderExecutable = 0;
-
-	char* geoShaderPath = "../Shaders/GeometryDefaultShader.glsl";
-
-
-	GLuint uboBufferObject = 0;
-	GLuint uboBindingIndex = 0;
-
-	GLuint ssboBufferObject = 0;
-	GLuint ssboBindingIndex = 0;
-
-	GW::MATH::GVector vectorLib;
-	GW::MATH::GMatrix matrixLib;
-	GW::MATH::GMATRIXF worldMatrix =		GW::MATH::GIdentityMatrixF;
-	GW::MATH::GMATRIXF viewMatrix =			GW::MATH::GIdentityMatrixF;
-	GW::MATH::GMATRIXF projectionMatrix =	GW::MATH::GIdentityMatrixF;
+	char* geoShaderPath = "../Shaders/GeometryDefaultShader.glsl"; // for loading different geo shaders (presss 1 and 2)
 
 	//passed from instances during draw calls
 	int transfromIndexUniLocation = 0;
 	int materialIndexUniLocation = 0;
+
+	//math
+	GW::MATH::GVector vectorLib;
+	GW::MATH::GMatrix matrixLib;
+	const float dtor = 0.0174533f; //gatewares is ugly
+
+	//spacemats
+	GW::MATH::GMATRIXF worldMatrix =		GW::MATH::GIdentityMatrixF;
+	GW::MATH::GMATRIXF viewMatrix =			GW::MATH::GIdentityMatrixF;
+	GW::MATH::GMATRIXF projectionMatrix =	GW::MATH::GIdentityMatrixF;
+
+	//light
+	GW::MATH::GVECTORF lightDirection = GW::MATH::GIdentityVectorF;
+	GW::MATH::GVECTORF lightColor = GW::MATH::GIdentityVectorF;
+	GW::MATH::GVECTORF ambientColor = GW::MATH::GIdentityVectorF;
 	
 #pragma region CameraVars
 	//camera
@@ -92,14 +99,9 @@ private:
 	std::chrono::steady_clock::time_point lastFrameTime;
 #pragma endregion InputVars
 
-	//light
-	GW::MATH::GVECTORF lightDirection = GW::MATH::GIdentityVectorF;
-	GW::MATH::GVECTORF lightColor = GW::MATH::GIdentityVectorF;
-	GW::MATH::GVECTORF ambientColor = GW::MATH::GIdentityVectorF;
-	
-	
 
-	// TODO: Part 2b
+	
+	//structs
 	struct UBO_DATA
 	{
 		GW::MATH::GMATRIXF viewMatrix, projectionMatrix;
@@ -117,10 +119,8 @@ private:
 	};
 	SSBO_DATA ssbo;
 
-	const float dtor = 0.0174533f;
+	
 public:
-
-
 	Renderer(GW::SYSTEM::GWindow _win, GW::GRAPHICS::GOpenGLSurface _ogl, Level_Data &_levelData) : levelData(_levelData)
 	{
 		win = _win;
@@ -138,10 +138,7 @@ public:
 		SetMatrixPosRot(worldMatrix, 0, 0, 0, 0, 0, 0);
 		InitializeViewMatrix();
 		InitializeProjectionMatrix();
-		// TODO: Part 2b
 
-		
-		// TODO: Part 4e
 		InitializeGraphics();
 		LocateUniforms();
 	}
@@ -174,6 +171,28 @@ private:
 	}
 #endif
 
+	//helper
+	void SetMatrixPosRot(GW::MATH::GMATRIXF& matrix, float xt, float yt, float zt, float xr, float yr, float zr) {
+		GW::MATH::GVECTORF moveVector = GW::MATH::GIdentityVectorF;
+		moveVector.x = xt;
+		moveVector.y = yt;
+		moveVector.z = zt;
+		if (xr != 0) matrixLib.RotateXGlobalF(matrix, xr * dtor, matrix);
+		if (yr != 0) matrixLib.RotateYGlobalF(matrix, yr * dtor, matrix);
+		if (zr != 0) matrixLib.RotateZGlobalF(matrix, zr * dtor, matrix);
+		//printf("%f,%f,%f,%f\n", worldVector.x, worldVector.y, worldVector.z, worldVector.w);
+		matrixLib.TranslateGlobalF(matrix, moveVector, matrix);
+	}
+
+	void PrintMatrix(GW::MATH::GMATRIXF mat) {
+		printf("%f, %f, %f, %f\n", mat.row1.x, mat.row1.y, mat.row1.z, mat.row1.w);
+		printf("%f, %f, %f, %f\n", mat.row2.x, mat.row2.y, mat.row2.z, mat.row2.w);
+		printf("%f, %f, %f, %f\n", mat.row3.x, mat.row3.y, mat.row3.z, mat.row3.w);
+		printf("%f, %f, %f, %f\n", mat.row4.x, mat.row4.y, mat.row4.z, mat.row4.w);
+	}
+
+
+	//init
 	void IntializeBuffers()
 	{
 		CreateVertexBuffer(&levelData.levelVertices[0], levelData.levelVertices.size() * sizeof(H2B::VERTEX));
@@ -191,7 +210,6 @@ private:
 		ubo.camPos = camTransform.row4; 
 	}
 
-	//copy transforms and materials over into SSBO
 	void InitializeSSBO() {
 		for (int t = 0; t < levelData.levelTransforms.size(); t++) {
 			ssbo.allTransforms[t] = levelData.levelTransforms[t];
@@ -200,25 +218,6 @@ private:
 			ssbo.allMaterials[m] = levelData.levelMaterials[m].attrib;
 		}
 
-	}
-
-	void PrintMatrix(GW::MATH::GMATRIXF mat) {
-		printf("%f, %f, %f, %f\n", mat.row1.x, mat.row1.y, mat.row1.z, mat.row1.w);
-		printf("%f, %f, %f, %f\n", mat.row2.x, mat.row2.y, mat.row2.z, mat.row2.w);
-		printf("%f, %f, %f, %f\n", mat.row3.x, mat.row3.y, mat.row3.z, mat.row3.w);
-		printf("%f, %f, %f, %f\n", mat.row4.x, mat.row4.y, mat.row4.z, mat.row4.w);
-	}
-
-	void SetMatrixPosRot(GW::MATH::GMATRIXF& matrix, float xt, float yt, float zt, float xr, float yr, float zr) {
-		GW::MATH::GVECTORF moveVector = GW::MATH::GIdentityVectorF;
-		moveVector.x = xt;
-		moveVector.y = yt;
-		moveVector.z = zt;
-		if (xr != 0) matrixLib.RotateXGlobalF(matrix,  xr * dtor, matrix);
-		if (yr != 0) matrixLib.RotateYGlobalF(matrix,  yr * dtor, matrix);
-		if (zr != 0) matrixLib.RotateZGlobalF(matrix,  zr * dtor, matrix);
-		//printf("%f,%f,%f,%f\n", worldVector.x, worldVector.y, worldVector.z, worldVector.w);
-		matrixLib.TranslateGlobalF(matrix, moveVector, matrix);
 	}
 
 	void InitializeLight() {
@@ -251,6 +250,7 @@ private:
 		matrixLib.ProjectionOpenGLRHF(fov * dtor, aspectRatio, 0.1, 100, projectionMatrix);
 	}
 
+	//buffers
 	void CreateVertexBuffer(const void* data, unsigned int sizeInBytes)
 	{
 		glGenVertexArrays(1, &vertexArray);
@@ -284,6 +284,23 @@ private:
 		glBindBufferBase(GL_SHADER_STORAGE_BUFFER, ssboBindingIndex, ssboBufferObject);
 	}
 
+	void LocateUniforms() {
+		transfromIndexUniLocation = glGetUniformLocation(shaderExecutable, "uTransformIndex");
+		materialIndexUniLocation = glGetUniformLocation(shaderExecutable, "uMaterialIndex");
+	}
+
+	void SetVertexAttributes()
+	{
+		//TODO: Part 1e
+		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(H2B::VERTEX), (void*)offsetof(H2B::VERTEX, pos));
+		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(H2B::VERTEX), (void*)offsetof(H2B::VERTEX, uvw));
+		glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, sizeof(H2B::VERTEX), (void*)offsetof(H2B::VERTEX, nrm));
+		glEnableVertexAttribArray(0);
+		glEnableVertexAttribArray(1);
+		glEnableVertexAttribArray(2);
+	}
+
+	//shaders
 	void CompileVertexShader()
 	{
 		char errors[1024];
@@ -353,8 +370,6 @@ private:
 		}
 	}
 
-
-
 	void CreateExecutableShaderProgram()
 	{
 		char errors[1024];
@@ -373,21 +388,8 @@ private:
 		}
 	}
 
-	void SetVertexAttributes()
-	{
-		//TODO: Part 1e
-		glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, sizeof(H2B::VERTEX), (void*)offsetof(H2B::VERTEX, pos));
-		glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, sizeof(H2B::VERTEX), (void*)offsetof(H2B::VERTEX, uvw));
-		glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, sizeof(H2B::VERTEX), (void*)offsetof(H2B::VERTEX, nrm));
-		glEnableVertexAttribArray(0);
-		glEnableVertexAttribArray(1);
-		glEnableVertexAttribArray(2);
-	}
 
-	void LocateUniforms() {
-		transfromIndexUniLocation = glGetUniformLocation(shaderExecutable, "uTransformIndex");
-		materialIndexUniLocation = glGetUniformLocation(shaderExecutable, "uMaterialIndex");
-	}
+	
 public:
 	float deltaTime = 0.0f;
 	void Render()
@@ -397,8 +399,6 @@ public:
 		SetupSSBO();
 		
 		
-		
-
 		for (int i = 0; i < levelData.levelInstances.size(); i++) // loop through all instances (unique models)
 		{
 
@@ -410,8 +410,6 @@ public:
 			for (int subMeshIdx = 0; subMeshIdx < model.meshCount; subMeshIdx++)  // each sub mesh of the model
 			{ 
 				auto curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
-
-				
 				glUniform1ui(materialIndexUniLocation, model.materialStart + curMesh.materialIndex);
 				
 
@@ -419,26 +417,8 @@ public:
 				glDrawElementsInstancedBaseVertex(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies, instance.transformCount, model.vertexStart);
 
 			}
-
-			//H2B::MESH curMesh; //current submesh of the model
-			//for (int t = 0; t < instance.transformCount; t++) {  // each unique location/orientation where this model is drawn
-			//	for (int subMeshIdx = 0; subMeshIdx < model.meshCount; subMeshIdx++) { // each sub mesh of the model
-			//		curMesh = levelData.levelMeshes[model.meshStart + subMeshIdx]; 
-			//
-			//		
-			//		ubo.material = levelData.levelMaterials[model.materialStart + curMesh.materialIndex].attrib; // this will only grab first material, need to fix later.
-			//		ubo.world = levelData.levelTransforms[instance.transformStart + t];
-			//		
-			//		glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
-			//		
-			//
-			//		auto indicies = reinterpret_cast <GLvoid*> ((model.indexStart + curMesh.drawInfo.indexOffset) * sizeof(unsigned int));
-			//		glDrawElementsInstancedBaseVertex(GL_TRIANGLES, curMesh.drawInfo.indexCount, GL_UNSIGNED_INT, indicies, 1, model.vertexStart);
-			//	}
-			//
-			//}
-
 		}
+
 		glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
 		glBindVertexArray(0); // some video cards(cough Intel) need this set back to zero or they won't display
 		glUseProgram(0);
@@ -448,7 +428,28 @@ public:
 
 #pragma region stowaways
 
+	//should seperate out into different class
+	void ReadInput() {
 
+		for (size_t i = 0; i < ARRAYSIZE(keyStates); i++)
+		{
+			inputLib.GetState(G_KEY_UNKNOWN + i, keyStates[i]);
+		}
+		int controllers;
+		controllerLib.GetNumConnected(controllers);
+		for (int c = 0; c < controllers; c++) { // yeah probably shouldnt be checking this every frame
+			controllerLib.IsConnected(c, controllerConnected);
+			if (controllerConnected) {
+				for (size_t i = 0; i < ARRAYSIZE(controllerStates); i++)
+				{
+					controllerLib.GetState(c, G_KEY_UNKNOWN + i, controllerStates[i]);
+				}
+				break;
+			}
+
+		}
+
+	}
 
 	//should seperate out int different class
 	void TickFrame() {
@@ -592,31 +593,7 @@ public:
 		}
 	}
 
-
-
-	//should seperate out into different class
-	void ReadInput() { 
-
-		for (size_t i = 0; i < ARRAYSIZE(keyStates); i++)
-		{
-			inputLib.GetState(G_KEY_UNKNOWN + i, keyStates[i]);
-		}
-		int controllers;
-		controllerLib.GetNumConnected(controllers);
-		for (int c = 0; c < controllers; c++) { // yeah probably shouldnt be checking this every frame
-			controllerLib.IsConnected(c, controllerConnected); 
-			if (controllerConnected) {
-				for (size_t i = 0; i < ARRAYSIZE(controllerStates); i++)
-				{
-					controllerLib.GetState(c, G_KEY_UNKNOWN + i, controllerStates[i]);
-				}
-				break;
-			}
-
-		} 
-
-	}
-
+	
 	void HandleInput() {
 		ReadInput();
 		UpdateCamera();
@@ -631,7 +608,6 @@ private:
 	//Render helper functions
 	void SetUpPipeline()
 	{
-		// TODO: Part 1h
 		glUseProgram(shaderExecutable);
 		glBindVertexArray(vertexArray);
 	}
@@ -642,25 +618,17 @@ private:
 		ubo.viewMatrix = viewMatrix;
 		glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(UBO_DATA), &ubo);
 
-		// TODO: Part 2e
 		auto uboIndex = glGetUniformBlockIndex(shaderExecutable, "UboData");
-		// TODO: Part 2f
 		glBindBufferBase(GL_UNIFORM_BUFFER, uboBindingIndex, uboBufferObject);
-		// TODO: Part 2g
 		glUniformBlockBinding(shaderExecutable, uboIndex, uboBindingIndex);
-
-		
-
 	}
-	void SetupSSBO() {
-
-
+	void SetupSSBO() 
+	{
 		glBindBuffer(GL_SHADER_STORAGE_BUFFER, ssboBufferObject);
 		glBufferSubData(GL_SHADER_STORAGE_BUFFER, 0, sizeof(SSBO_DATA), &ssbo);		// used to update buffer if need be
 		glBindBuffer(GL_SHADER_STORAGE_BUFFER, 0);
 
 		glBindBuffer(GL_SHADER_STORAGE_BUFFER, ssboBufferObject);
-
 	}
 
 public:

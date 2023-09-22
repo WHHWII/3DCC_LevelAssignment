@@ -9,7 +9,8 @@ set(VERTEX_SHADERS
 
 set(GEOMETRY_SHADERS 
 	# add Geometry shader (.glsl) files here
-	Shaders/GeometryShader.glsl
+	Shaders/GeometryDefaultShader.glsl
+	Shaders/GeometryExplosionShader.glsl
 )
 
 set(PIXEL_SHADERS 
@@ -24,10 +25,7 @@ set(SOURCE_CODE
 	renderer.h
 	OpenGLExtensions.h
 	FileIntoString.h
-	FSLogo.h # keeping for testing for now
-	CameraController.h
 	load_data_oriented.h
-        Camera.h
 )
 
 if(WIN32)
