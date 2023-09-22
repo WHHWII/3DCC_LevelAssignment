@@ -7,6 +7,11 @@ set(VERTEX_SHADERS
 	Shaders/VertexShader.glsl
 )
 
+set(GEOMETRY_SHADERS 
+	# add Geometry shader (.glsl) files here
+	Shaders/GeometryShader.glsl
+)
+
 set(PIXEL_SHADERS 
 	# add pixel shader (.glsl) files here
 	Shaders/FragmentShader.glsl
@@ -53,6 +58,7 @@ endif()
 add_executable (LevelRenderer_OpenGL 
 	${SOURCE_CODE}
 	${VERTEX_SHADERS}
+	${GEOMETRY_SHADERS}
 	${PIXEL_SHADERS}
 )
 

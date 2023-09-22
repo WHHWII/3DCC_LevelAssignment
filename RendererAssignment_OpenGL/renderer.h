@@ -50,6 +50,7 @@ private:
 	GLuint indexBufferObject = 0;
 	GLuint vertexShader = 0;
 	GLuint fragmentShader = 0;
+	GLuint geometryShader = 0;
 	GLuint shaderExecutable = 0;
 
 
@@ -156,6 +157,7 @@ private:
 		IntializeBuffers();
 
 		CompileVertexShader();
+		CompileGeometryShader();
 		CompileFragmentShader();
 		CreateExecutableShaderProgram();
 
@@ -303,6 +305,29 @@ private:
 		}
 	}
 
+	void CompileGeometryShader()
+	{
+		char errors[1024];
+		GLint result;
+
+		geometryShader = glCreateShader(GL_GEOMETRY_SHADER);
+
+		std::string geometryShaderSource = ReadFileIntoString("../Shaders/GeometryShader.glsl");
+		const GLchar* strings[1] = { geometryShaderSource.c_str() };
+		const GLint lengths[1] = { geometryShaderSource.length() };
+		glShaderSource(geometryShader, 1, strings, lengths);
+
+		glCompileShader(geometryShader);
+		glGetShaderiv(geometryShader, GL_COMPILE_STATUS, &result);
+		if (result == false)
+		{
+			glGetShaderInfoLog(geometryShader, 1024, NULL, errors);
+			PrintLabeledDebugString("Geometry Shader Errors:\n", errors);
+			abort();
+			return;
+		}
+	}
+
 	void CompileFragmentShader()
 	{
 		char errors[1024];
@@ -326,6 +351,8 @@ private:
 		}
 	}
 
+
+
 	void CreateExecutableShaderProgram()
 	{
 		char errors[1024];
@@ -333,7 +360,8 @@ private:
 
 		shaderExecutable = glCreateProgram();
 		glAttachShader(shaderExecutable, vertexShader);
-		glAttachShader(shaderExecutable, fragmentShader);
+		glAttachShader(shaderExecutable, geometryShader);
+		glAttachShader(shaderExecutable, fragmentShader); 
 		glLinkProgram(shaderExecutable);
 		glGetProgramiv(shaderExecutable, GL_LINK_STATUS, &result);
 		if (result == false)
@@ -623,12 +651,13 @@ public:
 		// free resources
 		glDeleteVertexArrays(1, &vertexArray);
 		glDeleteBuffers(1, &vertexBufferObject);
-		// TODO: Part 1g
+
 		glDeleteBuffers(1, &indexBufferObject);
 		glDeleteShader(vertexShader);
+		glDeleteShader(geometryShader);
 		glDeleteShader(fragmentShader);
 		glDeleteProgram(shaderExecutable);
-		// TODO: Part 2c
+
 		glDeleteBuffers(1, &uboBufferObject);
 		glDeleteBuffers(1, &ssboBufferObject);
 	}

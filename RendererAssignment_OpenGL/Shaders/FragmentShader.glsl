@@ -34,7 +34,8 @@ layout (binding = 0, std430, row_major) buffer SSBO
 
 in vec3 worldNorm;
 in vec3 surfacePos;
-flat in int instanceID;
+flat in int instanceID; // unused atm
+
 void main() 
 {	
 	OBJ_ATTRIBUTES curMat = allMaterials[uMaterialIndex];

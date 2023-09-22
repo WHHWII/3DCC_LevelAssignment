@@ -1,5 +1,5 @@
 #version 430 // GLSL 4.30
-// an ultra simple glsl vertex shader
+
 
 struct OBJ_ATTRIBUTES
 {
@@ -36,31 +36,35 @@ uniform uint uTransformIndex;
 uniform uint uMaterialIndex;
 
 
-// TODO: Part 4e
-// TODO: Part 1f
-layout(location = 0) in vec3 local_pos;
-layout(location = 1) in vec3 local_uvw;
-layout(location = 2) in vec3 local_nrm;
-// TODO: Part 4a
+
+out vec3 worldNorm;
+out vec3 surfacePos;
+flat out int instanceID;
 
 
-out DATA{
+
+in DATA{
 	vec3 worldNorm;
 	vec3 surfacePos;
 	int instanceID;
-} data_out;
+} data_in[];
 
+layout (triangles) in;
+
+layout (triangle_strip, max_vertices = 3) out;
 
 
 
 void main()
 {
-	data_out.instanceID = gl_InstanceID;
-	mat4 curWorld = allTransforms[uTransformIndex + data_out.instanceID];
-	data_out.surfacePos = (vec4(local_pos, 1) * curWorld).xyz;
-	data_out.surfacePos.x = -data_out.surfacePos.x; // correct transforms for conversion from LHDcoords to RHDcoords
-	gl_Position = vec4(data_out.surfacePos, 1) * viewMatrix; // not multiplied by proj matrix, as this will hapen in geo shader
-	// TODO: Part 4b
-	data_out.worldNorm = normalize(vec3(vec4(local_nrm, 0) * curWorld));
-	
+	int i;
+	for (i = 0; i < gl_in.length(); i++)
+    {
+        gl_Position = gl_in[i].gl_Position * projectionMatrix;
+		worldNorm = data_in[0].worldNorm;
+		surfacePos = data_in[i].surfacePos;
+		instanceID = data_in[i].instanceID;
+        EmitVertex();
+    }
+	EndPrimitive();
 }
