@@ -53,6 +53,8 @@ private:
 	GLuint geometryShader = 0;
 	GLuint shaderExecutable = 0;
 
+	char* geoShaderPath = "../Shaders/GeometryDefaultShader.glsl";
+
 
 	GLuint uboBufferObject = 0;
 	GLuint uboBindingIndex = 0;
@@ -157,7 +159,7 @@ private:
 		IntializeBuffers();
 
 		CompileVertexShader();
-		CompileGeometryShader();
+		CompileGeometryShader(geoShaderPath);
 		CompileFragmentShader();
 		CreateExecutableShaderProgram();
 
@@ -305,14 +307,14 @@ private:
 		}
 	}
 
-	void CompileGeometryShader()
+	void CompileGeometryShader(const char* path)
 	{
 		char errors[1024];
 		GLint result;
 
 		geometryShader = glCreateShader(GL_GEOMETRY_SHADER);
 
-		std::string geometryShaderSource = ReadFileIntoString("../Shaders/GeometryShader.glsl");
+		std::string geometryShaderSource = ReadFileIntoString(path);
 		const GLchar* strings[1] = { geometryShaderSource.c_str() };
 		const GLint lengths[1] = { geometryShaderSource.length() };
 		glShaderSource(geometryShader, 1, strings, lengths);
@@ -577,6 +579,21 @@ public:
 		}
 		return;
 	}
+
+	void ChangeGeoShader() {
+		if (keyStates[G_KEY_1] == 1) {
+			geoShaderPath = "../Shaders/GeometryDefaultShader.glsl";
+			InitializeGraphics();
+		}
+
+		else if (keyStates[G_KEY_2] == 1) {
+			geoShaderPath = "../Shaders/GeometryExplosionShader.glsl";
+			InitializeGraphics();
+		}
+	}
+
+
+
 	//should seperate out into different class
 	void ReadInput() { 
 
@@ -604,6 +621,7 @@ public:
 		ReadInput();
 		UpdateCamera();
 		ChangeLevel();
+		ChangeGeoShader();
 	}
 #pragma endregion stowaways
 
