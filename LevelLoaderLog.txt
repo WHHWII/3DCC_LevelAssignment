@@ -1,0 +1,184 @@
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	Start Program.
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[MESSAGE]	Begin Reading Game Level Text File.
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[USING PATH]	../Levels/GameLevel.txt
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x4
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x4.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x4.002
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x4.003
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_2x2
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_2x2.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_2x2.002
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x1
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x1.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Character
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Sign_4
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x4.004
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Light_Street_2
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -1.226400 Y 0.000000 Z 5.775900
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Light_Street_2.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -18.317699 Y 1.726500 Z 8.139700
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Light_Street_2.002
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -8.769700 Y 2.299100 Z -6.420300
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Light_Street_2.004
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -9.435900 Y -0.126900 Z 7.208000
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Tank
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X 5.257700 Y -0.391800 Z 7.203700
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Rail_Long
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -10.443100 Y 0.000000 Z 6.924300
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Lootbox
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -9.881200 Y 0.000000 Z 7.288400
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Lootbox.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -10.639100 Y 0.025800 Z 7.284600
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Pipe_2
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -19.927299 Y 0.000000 Z 3.269600
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Pipe_2.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -19.927299 Y 0.000000 Z 2.826800
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Pipe_2.002
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -19.927299 Y 0.000000 Z 2.426300
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: AC_Stacked
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -21.366600 Y -1.072800 Z 0.931900
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: AC_Stacked.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -21.037901 Y -1.072800 Z 1.327300
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Rail_Short
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -20.344000 Y -0.982500 Z 1.781200
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Rail_Short.001
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -20.539400 Y -1.016300 Z 2.016900
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_4x4.005
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -12.440000 Y -0.298800 Z -9.424800
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Platform_2x2.003
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -13.823800 Y 0.245400 Z -12.884700
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Pipe_2.003
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -14.081500 Y 0.146500 Z -10.445800
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Pipe_2.004
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -13.819400 Y 0.038800 Z -10.440200
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Pipe_2.005
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -13.585800 Y -0.064300 Z -10.466000
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: AC_Stacked.002
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -14.637300 Y -1.724500 Z -12.315100
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: AC_Stacked.003
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -14.297600 Y -1.256300 Z -11.756100
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Rail_Short.002
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -13.953200 Y -1.125700 Z -11.007800
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Model Detected: Rail_Short.003
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	Location: X -14.236700 Y -1.028700 Z -10.936500
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[MESSAGE]	Game Level File Reading Complete.
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[MESSAGE]	Begin Importing .H2B File Data.
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: AC_Stacked.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Character.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Light_Street_2.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Lootbox.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Pipe_2.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Rail_Long.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Rail_Short.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Sign_4.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[INFO]	H2B Imported: Tank.h2b
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Thu Oct 26 23:39:06 2023] ThreadID[24604]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	Start Program.
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[EVENT]	LOADING GAME LEVEL [DATA ORIENTED]
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[MESSAGE]	Begin Reading Game Level Text File.
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[USING PATH]	../Levels/GameLevel.txt
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x4
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x4.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X 4.693000 Y 0.016700 Z 8.798000
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x4.002
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -11.098000 Y 0.000000 Z 8.537100
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x4.003
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -18.367100 Y 0.000000 Z 2.559700
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_2x2
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -10.842800 Y 1.062200 Z -1.952200
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_2x2.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -0.326400 Y 0.000000 Z 6.237500
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_2x2.002
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -13.928200 Y -0.242700 Z -1.513400
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x1
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -9.400400 Y 2.375600 Z -5.213000
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x1.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -5.401500 Y 1.224500 Z 8.688000
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Character
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X 4.160200 Y 0.000000 Z 0.875600
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Sign_4
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X 3.712300 Y -1.061000 Z 6.565300
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x4.004
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -16.230499 Y 1.887800 Z 8.537100
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Light_Street_2
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -1.226400 Y 0.000000 Z 5.775900
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Light_Street_2.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -18.317699 Y 1.726500 Z 8.139700
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Light_Street_2.002
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -8.769700 Y 2.299100 Z -6.420300
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Light_Street_2.004
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -9.435900 Y -0.126900 Z 7.208000
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Tank
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X 5.257700 Y -0.391800 Z 7.203700
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Rail_Long
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -10.443100 Y 0.000000 Z 6.924300
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Lootbox
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -9.881200 Y 0.000000 Z 7.288400
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Lootbox.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -10.639100 Y 0.025800 Z 7.284600
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Pipe_2
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -19.927299 Y 0.000000 Z 3.269600
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Pipe_2.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -19.927299 Y 0.000000 Z 2.826800
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Pipe_2.002
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -19.927299 Y 0.000000 Z 2.426300
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: AC_Stacked
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -21.366600 Y -1.072800 Z 0.931900
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: AC_Stacked.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -21.037901 Y -1.072800 Z 1.327300
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Rail_Short
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -20.344000 Y -0.982500 Z 1.781200
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Rail_Short.001
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -20.539400 Y -1.016300 Z 2.016900
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_4x4.005
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -12.440000 Y -0.298800 Z -9.424800
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Platform_2x2.003
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -13.823800 Y 0.245400 Z -12.884700
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Pipe_2.003
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -14.081500 Y 0.146500 Z -10.445800
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Pipe_2.004
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -13.819400 Y 0.038800 Z -10.440200
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Pipe_2.005
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -13.585800 Y -0.064300 Z -10.466000
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: AC_Stacked.002
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -14.637300 Y -1.724500 Z -12.315100
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: AC_Stacked.003
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -14.297600 Y -1.256300 Z -11.756100
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Rail_Short.002
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -13.953200 Y -1.125700 Z -11.007800
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Model Detected: Rail_Short.003
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	Location: X -14.236700 Y -1.028700 Z -10.936500
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[MESSAGE]	Game Level File Reading Complete.
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[MESSAGE]	Begin Importing .H2B File Data.
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: AC_Stacked.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Character.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Light_Street_2.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Lootbox.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Pipe_2.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Platform_2x2.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Platform_4x1.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Platform_4x4.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Rail_Long.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Rail_Short.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Sign_4.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[INFO]	H2B Imported: Tank.h2b
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[MESSAGE]	Importing of .H2B File Data Complete.
+[Sat Oct 28 19:26:35 2023] ThreadID[25804]	[EVENT]	GAME LEVEL WAS LOADED TO CPU [DATA ORIENTED]
