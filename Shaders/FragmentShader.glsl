@@ -35,7 +35,8 @@ layout (binding = 0, std430, row_major) buffer SSBO
 in vec3 worldNorm;
 in vec3 surfacePos;
 flat in int instanceID; // unused atm
-
+//add sampler that will get texture when bound 
+//get the urm thats beeing passed from vertex shader ( need to pass through geos)
 void main() 
 {	
 	OBJ_ATTRIBUTES curMat = allMaterials[uMaterialIndex];

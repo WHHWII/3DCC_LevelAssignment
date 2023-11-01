@@ -38,7 +38,13 @@ class Renderer
 {
 
 private:
-
+	//ortho bounds
+	float left = -5;
+	float right = 5;
+	float top = 5;
+	float bot = -5;
+	float nearp = -50;
+	float farp = 50;
 
 
 	// proxy handles
@@ -72,6 +78,7 @@ private:
 	//math
 	GW::MATH::GVector vectorLib;
 	GW::MATH::GMatrix matrixLib;
+	GW::MATH::GCollision colliderLib;
 	const float dtor = 0.0174533f; //gatewares is ugly
 
 	//spacemats
@@ -136,6 +143,7 @@ public:
 		
 		matrixLib.Create();
 		vectorLib.Create();
+		colliderLib.Create();
 		inputLib.Create(win);
 		controllerLib.Create();
 
@@ -145,8 +153,8 @@ public:
 		InitializeLight();
 		SetMatrixPosRot(worldMatrix, 0, 0, 0, 0, 0, 0);
 		InitializeViewMatrix();
-		InitializeProjectionMatrix();
-
+		//InitializeProjectionMatrix();
+		InitializeOrthographicMatrix();
 		InitializeGraphics();
 		LocateUniforms();
 	}
@@ -244,18 +252,44 @@ private:
 	}
 
 	void InitializeViewMatrix() {
-		matrixLib.LookAtRHF(GW::MATH::GVECTORF{ 0.75f, 10.0f, -5.0f },
-			GW::MATH::GVECTORF{ 0.15f, 0.75f, 0.0f },
-			GW::MATH::GVECTORF{ 0.0f, 1.0f, 0.0f },
-			viewMatrix);
-		//lookate places matrix in view space, this updates transfrom by re-inverting the viewMatrix
-		matrixLib.InverseF(viewMatrix, camTransform);
+		//matrixLib.LookAtRHF(GW::MATH::GVECTORF{ 0, 10.0f, 0 },
+		//	GW::MATH::GVECTORF{ 0.15f, 0.75f, 0.0f },
+		//	GW::MATH::GVECTORF{ 0.0f, 1.0f, 0.0f },
+		//	viewMatrix);
+		////lookate places matrix in view space, this updates transfrom by re-inverting the viewMatrix
+		//matrixLib.InverseF(viewMatrix, camTransform);
+		
+		//matrixLib.TranslateGlobalF(camTransform, GW::MATH::GVECTORF({ 0,20,0 }), camTransform); // directly overhead
+		//matrixLib.RotateXGlobalF(camTransform, -90 * dtor, camTransform);
+		//matrixLib.InverseF(camTransform, viewMatrix);
+
+		GW::MATH::GMATRIXF trans =
+		{
+			0.001556,			0,					1.000002,			0,
+			-0.026226,			0.999655,			0.000041,			0,
+			-0.999657,			-0.026227,			0.001555,			0,
+			5.728357,			1.960249,			-5.488675,			1
+		};
+		camTransform = trans;
+		matrixLib.InverseF(camTransform, viewMatrix);
 	}
 
 	void InitializeProjectionMatrix() {
 		float aspectRatio;
 		ogl.GetAspectRatio(aspectRatio);
 		matrixLib.ProjectionOpenGLRHF(fov * dtor, aspectRatio, 0.1, 100, projectionMatrix);
+	}
+
+	void InitializeOrthographicMatrix() {
+
+		GW::MATH::GMATRIXF ortho =
+		{
+			2 / (right - left), 0,					0,					-(right + left) / (right - left),
+			0,					2 / (top - bot),	0,					-(top + bot) / (top - bot),
+			0,					0,					-2 / (farp - nearp),-(farp + nearp) / (farp - nearp),
+			0,					0,					0,					1
+		};
+		projectionMatrix = ortho;
 	}
 
 	//buffers
@@ -412,6 +446,8 @@ public:
 
 			auto instance = levelData.levelInstances[i]; // each unique model is stored in an instance, which is used to draw the same model in different locs/orientations
 			auto model = levelData.levelModels[instance.modelIndex]; // the model of the instance
+			auto collider = levelData.levelColliders[model.colliderIndex]; // the collider of the model
+			auto texture = levelData.levelTextures;
 
 			glUniform1ui(transfromIndexUniLocation, instance.transformStart);
 
@@ -617,6 +653,29 @@ public:
 			
 		}
 	}
+
+	void AdjustOrthoVolume() {
+		float adjustspeed = 1;
+		if (keyStates[G_KEY_LEFT]) {
+			left += adjustspeed * deltaTime;
+		}
+		else if (keyStates[G_KEY_RIGHT]) {
+			right += adjustspeed * deltaTime;
+		}
+		if (keyStates[G_KEY_UP]) {
+			top += adjustspeed * deltaTime;
+		}
+		if (keyStates[G_KEY_DOWN]) {
+			bot += adjustspeed * deltaTime;
+		}
+	}
+
+	void PrintCamera() {
+		if (!keyStates[G_KEY_P]) return;
+		printf("Camera transform:\n");
+		PrintMatrix(camTransform);
+		printf("\n");
+	}
 	
 	void HandleInput() {
 		ReadInput();
@@ -624,6 +683,9 @@ public:
 		ChangeLevel();
 		ChangeGeoShader();
 		ToggleWireframe();
+		AdjustOrthoVolume();
+		PrintCamera();
+
 	}
 #pragma endregion stowaways
 

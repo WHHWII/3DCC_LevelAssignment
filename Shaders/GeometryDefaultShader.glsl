@@ -1,4 +1,5 @@
 #version 430 // GLSL 4.30
+//this geo shader has no effects on visuals
 
 
 struct OBJ_ATTRIBUTES
@@ -60,7 +61,7 @@ void main()
 	int i;
 	for (i = 0; i < gl_in.length(); i++)
     {
-        gl_Position = gl_in[i].gl_Position  * projectionMatrix;
+        gl_Position = gl_in[i].gl_Position * projectionMatrix;
 		worldNorm = data_in[0].worldNorm;
 		surfacePos = data_in[i].surfacePos;
 		instanceID = data_in[i].instanceID;
